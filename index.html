@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LookIN</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..700&family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<style>
+  :root {
+    --paper: #fbfaf7;
+    --paper-2: #f4f1ea;
+    --ink: #1a1612;
+    --ink-2: #45403b;
+    --ink-3: #7a736a;
+    --rule: #e6dfd1;
+    --rule-strong: #c7bda9;
+    --accent: #690059;
+    --accent-2: #330040;
+    --accent-soft: #fde6d3;
+    --verified: #3f6212;
+    --unverified: #92400e;
+    --code-bg: #1c1a17;
+    --code-fg: #ebe5d6;
+    --code-comment: #8b8275;
+    --code-string: #c2c281;
+    --code-key: #f7b267;
+    --code-number: #e9967a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    font-family: 'Inter Tight', sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    background-image:
+      radial-gradient(circle at 10% 0%, rgba(194,65,12,0.04) 0%, transparent 40%),
+      radial-gradient(circle at 90% 30%, rgba(194,65,12,0.03) 0%, transparent 35%);
+  }
+  ::selection { background: var(--accent); color: var(--paper); }
+
+  /* ─── Layout ─── */
+  .app {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    max-width: 1380px;
+    margin: 0 auto;
+    gap: 0;
+  }
+  aside {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    border-right: 1px solid var(--rule);
+    padding: 32px 28px 40px;
+    overflow-y: auto;
+    background: var(--paper);
+  }
+  main { padding: 56px 64px 120px; min-width: 0; }
+  @media (max-width: 980px) {
+    .app { grid-template-columns: 1fr; }
+    aside { position: static; height: auto; border-right: none; border-bottom: 1px solid var(--rule); padding: 24px; }
+    main { padding: 36px 24px 80px; }
+  }
+
+  /* ─── Sidebar ─── */
+  .brand {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+    color: var(--ink);
+  }
+  .brand-sub {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+  .nav-section {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--ink-3);
+    font-weight: 600;
+    margin: 24px 0 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav-section:first-of-type { margin-top: 0; }
+  nav a {
+    display: block;
+    color: var(--ink-2);
+    text-decoration: none;
+    font-size: 13.5px;
+    padding: 5px 0 5px 10px;
+    border-left: 2px solid transparent;
+    transition: all 160ms ease;
+  }
+  nav a:hover { color: var(--accent); border-left-color: var(--accent-soft); }
+  nav a.active {
+    color: var(--accent);
+    border-left-color: var(--accent);
+    font-weight: 500;
+  }
+
+  /* ─── Hero ─── */
+  .hero {
+    margin-bottom: 56px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 12px;
+    background: var(--accent-soft);
+    color: var(--accent-2);
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    border-radius: 100px;
+    margin-bottom: 20px;
+  }
+  .hero-eyebrow::before {
+    content: '';
+    width: 6px; height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(194,65,12,0.18);
+  }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 1.02;
+    letter-spacing: -0.035em;
+    margin-bottom: 16px;
+    color: var(--ink);
+  }
+  h1 em { font-style: italic; font-weight: 300; color: var(--accent); }
+  .hero-lede {
+    font-size: 18px;
+    color: var(--ink-2);
+    max-width: 640px;
+    line-height: 1.5;
+    margin-bottom: 28px;
+  }
+  .hero-stats {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .hero-stat-num {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .hero-stat-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ink-3);
+    margin-top: 6px;
+    font-weight: 500;
+  }
+
+  /* ─── Section headers ─── */
+  section { margin-bottom: 72px; scroll-margin-top: 24px; }
+  .endpoint-method {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 10px;
+    background: var(--ink);
+    color: var(--paper);
+    border-radius: 4px;
+    margin-bottom: 12px;
+    letter-spacing: 0.05em;
+  }
+  .endpoint-method.post { background: var(--accent); }
+  h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    color: var(--ink);
+  }
+  .endpoint-path {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+    color: var(--accent-2);
+    background: var(--accent-soft);
+    padding: 4px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .endpoint-desc {
+    font-size: 16px;
+    color: var(--ink-2);
+    max-width: 720px;
+    margin-bottom: 28px;
+    line-height: 1.55;
+  }
+  h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    margin: 32px 0 14px;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  h3::before {
+    content: '';
+    width: 18px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  /* ─── Tables ─── */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 8px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  th, td {
+    text-align: left;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--rule);
+    font-size: 13.5px;
+  }
+  th {
+    background: var(--paper-2);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-3);
+    font-weight: 600;
+  }
+  tr:last-child td { border-bottom: none; }
+  td.param-name { font-family: 'JetBrains Mono', monospace; font-size: 12.5px; color: var(--accent-2); }
+  td.param-type { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--ink-3); }
+
+  /* ─── Playground ─── */
+  .playground {
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 22px;
+    margin: 20px 0;
+  }
+  .playground-label {
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--ink-3);
+    font-weight: 600;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .playground-label::before {
+    content: '▶';
+    color: var(--accent);
+    font-size: 9px;
+  }
+  .pg-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+  .pg-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 14px;
+    background: var(--paper);
+    border: 1px solid var(--rule-strong);
+    border-radius: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13.5px;
+    color: var(--ink);
+    transition: border-color 150ms;
+  }
+  .pg-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .pg-btn {
+    padding: 10px 22px;
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 13.5px;
+    cursor: pointer;
+    transition: all 150ms;
+    letter-spacing: 0.01em;
+  }
+  .pg-btn:hover { background: var(--accent); transform: translateY(-1px); }
+  .pg-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+  .pg-chip {
+    padding: 4px 11px;
+    background: var(--paper);
+    border: 1px solid var(--rule-strong);
+    border-radius: 100px;
+    font-size: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+    transition: all 140ms;
+    color: var(--ink-2);
+  }
+  .pg-chip:hover { background: var(--accent-soft); border-color: var(--accent); color: var(--accent-2); }
+  .pg-chip.active { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+  .pg-hint { font-size: 12px; color: var(--ink-3); margin: 8px 0 12px; }
+  .pg-suggestions {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    max-height: 180px;
+    overflow-y: auto;
+    margin-top: -8px;
+    margin-bottom: 12px;
+  }
+  .pg-suggestion {
+    padding: 8px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pg-suggestion:hover { background: var(--accent-soft); }
+  .pg-suggestion:last-child { border-bottom: none; }
+  .pg-suggestion-meta { color: var(--ink-3); font-size: 11px; font-family: 'JetBrains Mono', monospace; }
+
+  /* ─── Response ─── */
+  .response-box {
+    background: var(--code-bg);
+    color: var(--code-fg);
+    padding: 18px 20px;
+    border-radius: 6px;
+    margin-top: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    line-height: 1.55;
+    overflow-x: auto;
+    max-height: 480px;
+    overflow-y: auto;
+    position: relative;
+  }
+  .response-box pre { margin: 0; white-space: pre-wrap; word-break: break-word; }
+  .json-key { color: var(--code-key); }
+  .json-string { color: var(--code-string); }
+  .json-number { color: var(--code-number); }
+  .json-null, .json-bool { color: #d97757; }
+
+  /* ─── Code samples ─── */
+  .code-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 0;
+  }
+  .code-tab {
+    padding: 8px 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--ink-3);
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 150ms;
+  }
+  .code-tab:hover { color: var(--ink); }
+  .code-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .code-block {
+    background: var(--code-bg);
+    color: var(--code-fg);
+    padding: 18px 20px;
+    border-radius: 0 0 6px 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    line-height: 1.6;
+    overflow-x: auto;
+    position: relative;
+  }
+  .code-block pre { margin: 0; }
+  .copy-btn {
+    position: absolute;
+    top: 12px; right: 12px;
+    padding: 4px 10px;
+    background: rgba(235,229,214,0.08);
+    color: var(--code-comment);
+    border: 1px solid rgba(235,229,214,0.15);
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 150ms;
+  }
+  .copy-btn:hover { background: rgba(235,229,214,0.15); color: var(--code-fg); }
+  .copy-btn.copied { background: rgba(63,98,18,0.3); color: #b6e386; border-color: rgba(63,98,18,0.5); }
+
+  /* ─── Tags ─── */
+  .conf-tag {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-left: 6px;
+  }
+  .conf-tag.verified, .conf-tag.authoritative, .conf-tag.computed { background: #dcf2c4; color: var(--verified); }
+  .conf-tag.approximate { background: #fef0c7; color: #92400e; }
+  .conf-tag.unverified { background: #fde2d3; color: var(--unverified); }
+  .conf-tag.unknown { background: #e5e7eb; color: #4b5563; }
+
+  .callout {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    border-radius: 0 6px 6px 0;
+    margin: 20px 0;
+    font-size: 13.5px;
+    color: var(--ink-2);
+  }
+  .callout strong { color: var(--accent-2); }
+  .callout.warn { background: #fef0c7; border-left-color: #d97706; }
+
+  /* status hero */
+  .status-line {
+    margin-top: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-3);
+  }
+  .status-line span { color: var(--verified); font-weight: 600; }
+
+  /* loader */
+  .loader {
+    display: inline-block;
+    width: 13px; height: 13px;
+    border: 2px solid var(--paper-2);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    vertical-align: middle;
+    margin-left: 6px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* schema block */
+  .schema {
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  .schema-group {
+    border-bottom: 1px solid var(--rule);
+  }
+  .schema-group:last-child { border-bottom: none; }
+  .schema-header {
+    background: var(--paper-2);
+    padding: 8px 14px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ink-3);
+    font-weight: 600;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .schema-fields {
+    padding: 4px 14px;
+  }
+  .schema-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    font-size: 13px;
+    border-bottom: 1px dashed var(--rule);
+  }
+  .schema-field:last-child { border-bottom: none; }
+  .schema-field-name { font-family: 'JetBrains Mono', monospace; color: var(--ink); }
+  .schema-field-type { font-family: 'JetBrains Mono', monospace; color: var(--ink-3); font-size: 12px; }
+
+  footer {
+    margin-top: 80px;
+    padding-top: 32px;
+    border-top: 1px solid var(--rule);
+    font-size: 12.5px;
+    color: var(--ink-3);
+    line-height: 1.7;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+const { useState, useEffect, useRef, useMemo, useCallback } = React;
+
+// ═══════════════════════════════════════════════════════════════════════════
+// LOAD DATASETS
+// ═══════════════════════════════════════════════════════════════════════════
+async function loadJSON(paths) {
+  for (const p of paths) {
+    try {
+      const r = await fetch(p);
+      if (r.ok) return await r.json();
+    } catch {}
+  }
+  return null;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// IN-BROWSER API (mirrors server.js v3.0)
+// ═══════════════════════════════════════════════════════════════════════════
+function haversine(la1, lo1, la2, lo2) {
+  const R = 6371, dLa = ((la2-la1)*Math.PI)/180, dLo = ((lo2-lo1)*Math.PI)/180;
+  const a = Math.sin(dLa/2)**2 + Math.cos(la1*Math.PI/180)*Math.cos(la2*Math.PI/180)*Math.sin(dLo/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+const distM = (la,lo,lb,lob) => Math.round(haversine(la,lo,lb,lob)*1000);
+const walkMin = (m) => Math.max(1, Math.round(m/80));
+
+function levenshtein(a, b) {
+  if (a === b) return 0;
+  if (!a.length) return b.length; if (!b.length) return a.length;
+  const prev = Array(b.length+1).fill(0), curr = Array(b.length+1).fill(0);
+  for (let j=0; j<=b.length; j++) prev[j]=j;
+  for (let i=1; i<=a.length; i++) {
+    curr[0]=i;
+    for (let j=1; j<=b.length; j++) {
+      const c = a[i-1]===b[j-1]?0:1;
+      curr[j] = Math.min(curr[j-1]+1, prev[j]+1, prev[j-1]+c);
+    }
+    for (let j=0; j<=b.length; j++) prev[j]=curr[j];
+  }
+  return prev[b.length];
+}
+function trigrams(s) {
+  const p = `  ${s.toLowerCase().replace(/\s+/g," ")}  `, set = new Set();
+  for (let i=0; i<p.length-2; i++) set.add(p.slice(i,i+3));
+  return set;
+}
+function trigramSim(a, b) {
+  const ta=trigrams(a), tb=trigrams(b);
+  let i=0; for (const t of ta) if (tb.has(t)) i++;
+  const u = ta.size+tb.size-i;
+  return u===0?0:i/u;
+}
+const SUFFIXES = new Set(["nagar","vihar","enclave","colony","puram","puri","bagh","park","extension","garden","marg","road","sector","phase","block","area","kunj","town","estate"]);
+const stripSuffixes = (s) => s.toLowerCase().split(/\s+/).filter(t=>!SUFFIXES.has(t)).join(" ").trim();
+function simScore(q, c) {
+  const ql=q.toLowerCase().trim(), cl=c.toLowerCase().trim();
+  if (ql===cl) return 1.0;
+  const t1=trigramSim(ql,cl);
+  const qs=stripSuffixes(ql)||ql, cs=stripSuffixes(cl)||cl;
+  const t2=trigramSim(qs,cs);
+  const lev=levenshtein(ql,cl);
+  const m=Math.max(ql.length,cl.length);
+  const ln=m===0?1:1-lev/m;
+  return Math.round((t1*0.4+t2*0.4+ln*0.2)*100)/100;
+}
+const matchType = (s) => s>=0.95?"exact":s>=0.8?"partial":s>=0.6?"fuzzy":"weak";
+
+// DIGIPIN
+const DIGIPIN_GRID = [
+  ['F','C','9','8'],
+  ['J','3','2','7'],
+  ['K','4','5','6'],
+  ['L','M','P','T'],
+];
+const DBOUNDS = { minLat:2.5, maxLat:38.5, minLng:63.5, maxLng:99.5 };
+function encodeDigipin(lat, lng) {
+  if (lat<DBOUNDS.minLat||lat>DBOUNDS.maxLat||lng<DBOUNDS.minLng||lng>DBOUNDS.maxLng) return null;
+  let {minLat,maxLat,minLng,maxLng} = DBOUNDS;
+  let code = "";
+  for (let level=0; level<10; level++) {
+    const latStep=(maxLat-minLat)/4, lngStep=(maxLng-minLng)/4;
+    let row=3-Math.floor((lat-minLat)/latStep), col=Math.floor((lng-minLng)/lngStep);
+    if (row<0) row=0; if (row>3) row=3;
+    if (col<0) col=0; if (col>3) col=3;
+    code += DIGIPIN_GRID[row][col];
+    maxLat = minLat + latStep*(4-row);
+    minLat = minLat + latStep*(3-row);
+    minLng = minLng + lngStep*col;
+    maxLng = minLng + lngStep;
+    if (level===2 || level===5) code += "-";
+  }
+  return code;
+}
+function decodeDigipin(digipin) {
+  const clean = digipin.replace(/-/g,'');
+  if (clean.length !== 10) return null;
+  let {minLat,maxLat,minLng,maxLng} = DBOUNDS;
+  for (const ch of clean) {
+    let found = null;
+    for (let r=0; r<4 && !found; r++) {
+      for (let c=0; c<4; c++) {
+        if (DIGIPIN_GRID[r][c]===ch) { found=[r,c]; break; }
+      }
+    }
+    if (!found) return null;
+    const [row,col] = found;
+    const latStep=(maxLat-minLat)/4, lngStep=(maxLng-minLng)/4;
+    maxLat = minLat + latStep*(4-row);
+    minLat = minLat + latStep*(3-row);
+    const newMinLng = minLng + lngStep*col;
+    maxLng = newMinLng + lngStep;
+    minLng = newMinLng;
+  }
+  return { lat: (minLat+maxLat)/2, lng: (minLng+maxLng)/2 };
+}
+
+function makeApi(pincodes, pois) {
+  const byPin = {};
+  const byDistrict = {};
+  const byLoc = {};
+  const byLS = {};
+  for (const e of pincodes) {
+    byPin[e.pincode] = e;
+    const dk = e.district.toLowerCase();
+    if (!byDistrict[dk]) byDistrict[dk] = [];
+    byDistrict[dk].push(e);
+    for (const loc of e.localities) {
+      const lk = loc.toLowerCase();
+      if (!byLoc[lk]) byLoc[lk] = [];
+      byLoc[lk].push(e);
+    }
+    if (e.lok_sabha_constituency) {
+      const lsk = e.lok_sabha_constituency.toLowerCase();
+      if (!byLS[lsk]) byLS[lsk] = [];
+      byLS[lsk].push(e);
+    }
+  }
+  const allPois = [
+    ...(pois?.metro_stations||[]).map(p=>({...p, type:"metro_station"})),
+    ...(pois?.bus_stops||[]).map(p=>({...p, type:"bus_stop"})),
+    ...(pois?.landmarks||[]).map(p=>({...p, type:"landmark"})),
+  ];
+
+  function buildNearbyPois(entry, { radius=2000, limit=5, types=["metro_station","bus_stop","landmark"] }={}) {
+    const grouped = { metro_station: [], bus_stop: [], landmark: [] };
+    for (const p of allPois) {
+      if (!types.includes(p.type)) continue;
+      const d = distM(entry.centroid.lat, entry.centroid.lng, p.lat, p.lng);
+      if (d > radius) continue;
+      const out = { name: p.name, lat: p.lat, lng: p.lng, distance_meters: d };
+      if (p.type==="metro_station") { out.lines = p.lines; out.walking_time_min = walkMin(d); }
+      else if (p.type==="bus_stop") out.routes = p.routes;
+      else if (p.type==="landmark") out.category = p.category;
+      grouped[p.type].push(out);
+    }
+    for (const t of Object.keys(grouped)) {
+      grouped[t].sort((a,b)=>a.distance_meters-b.distance_meters);
+      grouped[t] = grouped[t].slice(0, limit);
+    }
+    return grouped;
+  }
+
+  return {
+    pincodes, pois, allPois, byPin, byDistrict, byLoc, byLS,
+
+    lookup(pincode) {
+      if (!/^\d{6}$/.test(pincode)) return { success:false, error:"Pincode must be 6 digits." };
+      if (!pincode.startsWith("11")) return { success:false, error:"This API only covers Delhi pincodes." };
+      const e = byPin[pincode];
+      if (!e) return { success:false, error:`Pincode ${pincode} not found.` };
+      return { success:true, data:e };
+    },
+
+    full(pincode, { radius=2000, limit=5 }={}) {
+      if (!/^\d{6}$/.test(pincode)) return { success:false, error:"Pincode must be 6 digits." };
+      const e = byPin[pincode];
+      if (!e) return { success:false, error:`Pincode ${pincode} not found.` };
+      const siblings = byDistrict[e.district.toLowerCase()]
+        .filter(p => p.pincode !== e.pincode)
+        .map(p => ({ pincode:p.pincode, digipin:p.digipin, localities:p.localities.slice(0,3) }));
+      const nearby = buildNearbyPois(e, { radius, limit });
+      return {
+        success: true,
+        data: {
+          identity: { pincode: e.pincode, digipin: e.digipin },
+          geography: { centroid: e.centroid, timezone: e.timezone, utc_offset: e.utc_offset },
+          postal: { district: e.district, division: e.division, region: e.region, circle: e.circle, post_offices: e.post_offices },
+          civic: { state: e.state, state_code: e.state_code, country: e.country, country_code: e.country_code, municipal_corporation: e.municipal_corporation, municipal_zone: e.municipal_zone },
+          political: { lok_sabha_constituency: e.lok_sabha_constituency, vidhan_sabha_constituency: e.vidhan_sabha_constituency },
+          codes: { std_code: e.std_code, gst_state_code: e.gst_state_code },
+          localities: e.localities,
+          nearby: { radius_meters: radius, ...nearby },
+          sibling_pincodes: siblings,
+          data_confidence: e.data_confidence,
+        },
+        meta: { unverified_fields: ["vidhan_sabha_constituency","municipal_zone","post_office.address"] },
+      };
+    },
+
+    validate(pincode) {
+      if (!/^\d{6}$/.test(pincode)) return { success:false, error:"Pincode must be 6 digits." };
+      const v = !!byPin[pincode];
+      return { success:true, pincode, valid:v, message: v?`${pincode} is valid.`:`${pincode} is not recognised.` };
+    },
+
+    digipinByPincode(pincode) {
+      const e = byPin[pincode];
+      if (!e) return { success:false, error:`Pincode ${pincode} not found.` };
+      return { success:true, data:{ pincode: e.pincode, digipin: e.digipin, centroid: e.centroid } };
+    },
+
+    encodeDigipin(lat, lng) {
+      const code = encodeDigipin(lat, lng);
+      if (!code) return { success:false, error:"Coordinates outside DIGIPIN bounds (2.5–38.5°N, 63.5–99.5°E)" };
+      return { success:true, data:{ lat, lng, digipin: code } };
+    },
+
+    decodeDigipin(code) {
+      const d = decodeDigipin(code);
+      if (!d) return { success:false, error:"Invalid DIGIPIN code" };
+      return { success:true, data:{ digipin: code, lat: d.lat, lng: d.lng } };
+    },
+
+    nearbyPois(pincode, { radius=2000, limit=5, types=["metro_station","bus_stop","landmark"] }={}) {
+      const e = byPin[pincode];
+      if (!e) return { success:false, error:`Pincode ${pincode} not found.` };
+      const grouped = buildNearbyPois(e, { radius, limit, types });
+      return {
+        status:"success", pincode,
+        center:{ locality:e.localities[0], district:e.district, state:"Delhi", lat:e.centroid.lat, lng:e.centroid.lng, digipin:e.digipin },
+        radius_meters: radius, results: grouped,
+      };
+    },
+
+    search(q, { limit=10, threshold=0.55, near=null }={}) {
+      if (!q || q.trim().length<2) return { status:"error", error:"Provide at least 2 chars." };
+      const t0 = Date.now();
+      const cands = [];
+      for (const e of pincodes) {
+        for (const loc of e.localities) {
+          const s = simScore(q, loc);
+          if (s>=threshold) cands.push({ type:"locality", name:loc, pincode:e.pincode, district:e.district, digipin:e.digipin, lat:e.centroid.lat, lng:e.centroid.lng, match_score:s, match_type:matchType(s) });
+        }
+        for (const po of e.post_offices) {
+          const s = simScore(q, po.name);
+          if (s>=threshold) cands.push({ type:"post_office", name:po.name, office_type:po.type, delivery:po.delivery, pincode:e.pincode, district:e.district, digipin:po.digipin, lat:e.centroid.lat, lng:e.centroid.lng, match_score:s, match_type:matchType(s) });
+        }
+      }
+      for (const ms of (pois?.metro_stations||[])) {
+        const s = simScore(q, ms.name);
+        if (s>=threshold) cands.push({ type:"metro_station", name:ms.name, lines:ms.lines, pincode:ms.pincode, lat:ms.lat, lng:ms.lng, match_score:s, match_type:matchType(s) });
+      }
+      for (const lm of (pois?.landmarks||[])) {
+        const s = simScore(q, lm.name);
+        if (s>=threshold) cands.push({ type:"landmark", name:lm.name, category:lm.category, pincode:lm.pincode, lat:lm.lat, lng:lm.lng, match_score:s, match_type:matchType(s) });
+      }
+      if (near) {
+        for (const c of cands) {
+          const dKm = haversine(near.lat, near.lng, c.lat, c.lng);
+          const boost = Math.max(0, 0.15*(1-Math.min(dKm/10, 1)));
+          c.distance_km = +dKm.toFixed(2);
+          c.match_score = +Math.min(1, c.match_score+boost).toFixed(2);
+          c.match_type = matchType(c.match_score);
+        }
+      }
+      const prio = { locality:1, metro_station:2, post_office:3, landmark:4 };
+      cands.sort((a,b) => b.match_score-a.match_score || (prio[a.type]||9)-(prio[b.type]||9));
+      const seen = new Set();
+      const deduped = cands.filter(c => {
+        const k = `${c.type}:${c.name.toLowerCase()}:${c.pincode}`;
+        if (seen.has(k)) return false;
+        seen.add(k); return true;
+      });
+      const results = deduped.slice(0, limit);
+      const exactish = results.filter(r => r.match_score>=0.95);
+      const disambig = exactish.length>=2 && exactish[0].pincode!==exactish[1].pincode;
+      const dym = results.length>0 && results[0].match_score<0.95 && results[0].match_score>=0.75 ? results[0].name : null;
+      const status = results.length===0 ? "no_match" : results[0].match_score>=0.95 ? "success" : "partial_match";
+      return {
+        status, query:q, interpreted_as:q.toLowerCase().trim(),
+        total_matches: results.length, disambiguation_required: disambig, results,
+        suggestions: {
+          did_you_mean: dym,
+          disambiguation_warning: disambig ? "Multiple high-confidence matches in different pincodes." : null,
+          narrow_by: disambig ? exactish.slice(0,4).map(r => ({ label:`${r.name} (${r.district||r.pincode})`, query:`${r.name} ${r.district||""}`.trim(), pincode:r.pincode })) : [],
+        },
+        meta: { search_time_ms: Date.now()-t0, algorithm:"trigram + levenshtein + suffix-aware", threshold, geo_biased: near!==null },
+      };
+    },
+
+    nearestPincodes(lat, lng, limit=5) {
+      if (isNaN(lat)||isNaN(lng)) return { success:false, error:"Provide valid lat/lng." };
+      if (lat<28.4||lat>28.9||lng<76.8||lng>77.5) return { success:false, error:"Coordinates outside Delhi bounds." };
+      const r = pincodes.map(p => ({ ...p, distance_km: +haversine(lat,lng,p.centroid.lat,p.centroid.lng).toFixed(2) }))
+        .sort((a,b)=>a.distance_km-b.distance_km).slice(0, limit);
+      return { success:true, count:r.length, data:r };
+    },
+
+    bulk(arr) {
+      if (!Array.isArray(arr) || arr.length===0) return { success:false, error:'Provide a non-empty array.' };
+      if (arr.length>50) return { success:false, error:"Max 50 pincodes." };
+      const results = arr.map(p => {
+        const s = String(p);
+        if (!/^\d{6}$/.test(s)) return { pincode:s, found:false, error:"Invalid format" };
+        const e = byPin[s];
+        return e ? { ...e, found:true } : { pincode:s, found:false };
+      });
+      const found = results.filter(r=>r.found).length;
+      return { success:true, total:results.length, found, not_found:results.length-found, data:results };
+    },
+
+    lokSabhaList() {
+      const s = {};
+      for (const e of pincodes) {
+        const n = e.lok_sabha_constituency;
+        if (!n) continue;
+        if (!s[n]) s[n] = { constituency:n, pincode_count:0, pincodes:[] };
+        s[n].pincode_count++; s[n].pincodes.push(e.pincode);
+      }
+      return { success:true, data: Object.values(s).sort((a,b)=>a.constituency.localeCompare(b.constituency)) };
+    },
+
+    lokSabha(name) {
+      const key = name.toLowerCase().replace(/-/g, " ");
+      const r = byLS[key] || [];
+      if (r.length===0) return { success:false, error:`No pincodes for LS constituency "${name}".` };
+      return { success:true, count:r.length, constituency:r[0].lok_sabha_constituency, data:r };
+    },
+  };
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// UTILITIES
+// ═══════════════════════════════════════════════════════════════════════════
+function syntaxHighlight(json) {
+  if (typeof json !== "string") json = JSON.stringify(json, null, 2);
+  json = json.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  return json.replace(
+    /("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+-]?\d+)?)/g,
+    (m) => {
+      let cls = "json-number";
+      if (/^"/.test(m)) cls = /:$/.test(m) ? "json-key" : "json-string";
+      else if (/true|false/.test(m)) cls = "json-bool";
+      else if (/null/.test(m)) cls = "json-null";
+      return `<span class="${cls}">${m}</span>`;
+    }
+  );
+}
+
+function CopyButton({ text }) {
+  const [copied, setCopied] = useState(false);
+  return (
+    <button className={`copy-btn ${copied?"copied":""}`} onClick={() => {
+      navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(()=>setCopied(false), 1400);
+    }}>{copied ? "copied" : "copy"}</button>
+  );
+}
+
+function CodeTabs({ samples }) {
+  const keys = Object.keys(samples);
+  const [active, setActive] = useState(keys[0]);
+  return (
+    <div>
+      <div className="code-tabs">
+        {keys.map(k => (
+          <button key={k} className={`code-tab ${active===k?"active":""}`} onClick={() => setActive(k)}>{k}</button>
+        ))}
+      </div>
+      <div className="code-block">
+        <CopyButton text={samples[active]} />
+        <pre>{samples[active]}</pre>
+      </div>
+    </div>
+  );
+}
+
+function ResponseBox({ data }) {
+  if (data===null||data===undefined) return null;
+  return (
+    <div className="response-box">
+      <pre dangerouslySetInnerHTML={{__html: syntaxHighlight(data)}} />
+    </div>
+  );
+}
+
+function Autocomplete({ api, value, onChange, onPick, placeholder, type="pincode" }) {
+  const [focus, setFocus] = useState(false);
+  const v = (value||"").toLowerCase();
+  let suggestions = [];
+  if (focus && v.length>=2) {
+    if (type==="pincode") {
+      suggestions = api.pincodes.filter(p =>
+        p.pincode.startsWith(v) ||
+        p.district.toLowerCase().includes(v) ||
+        p.localities.some(l => l.toLowerCase().includes(v))
+      ).slice(0, 8).map(p => ({ label: `${p.pincode}`, meta: `${p.district} — ${p.localities.slice(0,2).join(", ")}`, value: p.pincode }));
+    } else if (type==="locality") {
+      const seen = new Set();
+      for (const p of api.pincodes) {
+        for (const l of p.localities) {
+          if (l.toLowerCase().includes(v) && !seen.has(l.toLowerCase())) {
+            seen.add(l.toLowerCase());
+            suggestions.push({ label: l, meta: `${p.pincode} — ${p.district}`, value: l });
+            if (suggestions.length>=8) break;
+          }
+        }
+        if (suggestions.length>=8) break;
+      }
+    }
+  }
+  return (
+    <div style={{flex:1, minWidth:200, position:"relative"}}>
+      <input className="pg-input" value={value} placeholder={placeholder}
+             onChange={e=>onChange(e.target.value)}
+             onFocus={()=>setFocus(true)}
+             onBlur={()=>setTimeout(()=>setFocus(false), 150)} />
+      {suggestions.length>0 && (
+        <div className="pg-suggestions">
+          {suggestions.map((s,i) => (
+            <div key={i} className="pg-suggestion" onMouseDown={(e)=>{e.preventDefault(); onPick(s.value); setFocus(false);}}>
+              <span>{s.label}</span>
+              <span className="pg-suggestion-meta">{s.meta}</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// SCHEMA TREE for /full
+// ═══════════════════════════════════════════════════════════════════════════
+const FULL_SCHEMA = [
+  { group: "identity", fields: [
+    ["pincode", "string", "authoritative"],
+    ["digipin", "string", "computed"],
+  ]},
+  { group: "geography", fields: [
+    ["centroid.lat", "number", "approximate"],
+    ["centroid.lng", "number", "approximate"],
+    ["timezone", "string", "authoritative"],
+    ["utc_offset", "string", "authoritative"],
+  ]},
+  { group: "postal", fields: [
+    ["district", "string", "authoritative"],
+    ["division", "string", "authoritative"],
+    ["region", "string", "authoritative"],
+    ["circle", "string", "authoritative"],
+    ["post_offices[].name", "string", "authoritative"],
+    ["post_offices[].digipin", "string", "approximate"],
+    ["post_offices[].address", "string|null", "unverified"],
+  ]},
+  { group: "civic", fields: [
+    ["state", "string", "authoritative"],
+    ["state_code", "string", "authoritative"],
+    ["country", "string", "authoritative"],
+    ["country_code", "string", "authoritative"],
+    ["municipal_corporation", "string", "authoritative"],
+    ["municipal_zone", "string|null", "unverified"],
+  ]},
+  { group: "political", fields: [
+    ["lok_sabha_constituency", "string|null", "verified"],
+    ["vidhan_sabha_constituency", "string|null", "unverified"],
+  ]},
+  { group: "codes", fields: [
+    ["std_code", "string", "authoritative"],
+    ["gst_state_code", "string", "authoritative"],
+  ]},
+  { group: "localities", fields: [["[]", "string[]", "authoritative"]] },
+  { group: "nearby", fields: [
+    ["metro_station[]", "object[]", "authoritative"],
+    ["bus_stop[]", "object[]", "authoritative"],
+    ["landmark[]", "object[]", "authoritative"],
+  ]},
+  { group: "sibling_pincodes", fields: [["[]", "object[]", "computed"]] },
+];
+
+// ═══════════════════════════════════════════════════════════════════════════
+// SIDEBAR
+// ═══════════════════════════════════════════════════════════════════════════
+const NAV = [
+  { section: "Getting started", items: [
+    { id: "overview", label: "Overview" },
+    { id: "schema", label: "Full response schema" },
+    { id: "confidence", label: "Data confidence labels" },
+  ]},
+  { section: "Aggregated", items: [
+    { id: "full", label: "Pincode full record" },
+  ]},
+  { section: "Pincodes", items: [
+    { id: "lookup", label: "Lookup" },
+    { id: "validate", label: "Validate" },
+    { id: "list", label: "List & filter" },
+  ]},
+  { section: "DIGIPIN", items: [
+    { id: "digipin-encode", label: "Encode lat,lng → DIGIPIN" },
+    { id: "digipin-decode", label: "Decode DIGIPIN → lat,lng" },
+    { id: "digipin-pincode", label: "DIGIPIN by pincode" },
+  ]},
+  { section: "Search", items: [
+    { id: "fuzzy", label: "Universal fuzzy search" },
+    { id: "nearby-pois", label: "Nearby POIs" },
+    { id: "nearest-pincodes", label: "Nearest pincodes (lat,lng)" },
+  ]},
+  { section: "Administrative", items: [
+    { id: "districts", label: "Districts" },
+    { id: "constituencies", label: "Lok Sabha constituencies" },
+  ]},
+  { section: "Bulk & POIs", items: [
+    { id: "pois", label: "POI catalog" },
+    { id: "bulk", label: "Bulk lookup" },
+  ]},
+];
+
+function Sidebar({ active }) {
+  return (
+    <aside>
+      <nav>
+        {NAV.map(s => (
+          <div key={s.section}>
+            <div className="nav-section">{s.section}</div>
+            {s.items.map(i => (
+              <a key={i.id} href={`#${i.id}`} className={active===i.id?"active":""}>{i.label}</a>
+            ))}
+          </div>
+        ))}
+      </nav>
+    </aside>
+  );
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// PLAYGROUNDS
+// ═══════════════════════════════════════════════════════════════════════════
+function FullPlayground({ api }) {
+  const [pin, setPin] = useState("110001");
+  const [radius, setRadius] = useState(2000);
+  const [out, setOut] = useState(null);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /pincodes/:pincode/full</div>
+      <div className="pg-row">
+        <Autocomplete api={api} value={pin} onChange={setPin} onPick={setPin} placeholder="110001" />
+        <input className="pg-input" style={{maxWidth:120}} type="number" value={radius} onChange={e=>setRadius(+e.target.value)} placeholder="radius (m)" />
+        <button className="pg-btn" onClick={()=>setOut(api.full(pin, { radius, limit:3 }))}>GET /full</button>
+      </div>
+      <div className="pg-hint">Aggregated single-response endpoint — every data point in one call. Default radius 2km, limit 3 POIs/type for brevity in the playground.</div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function LookupPlayground({ api }) {
+  const [pin, setPin] = useState("110001");
+  const [out, setOut] = useState(null);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /pincodes/:pincode</div>
+      <div className="pg-row">
+        <Autocomplete api={api} value={pin} onChange={setPin} onPick={setPin} placeholder="110001" />
+        <button className="pg-btn" onClick={()=>setOut(api.lookup(pin))}>GET</button>
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function ValidatePlayground({ api }) {
+  const [pin, setPin] = useState("110001");
+  const [out, setOut] = useState(null);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /pincodes/:pincode/validate</div>
+      <div className="pg-row">
+        <input className="pg-input" value={pin} onChange={e=>setPin(e.target.value)} placeholder="6-digit pincode" />
+        <button className="pg-btn" onClick={()=>setOut(api.validate(pin))}>GET</button>
+      </div>
+      <div className="pg-row">
+        {["110001","110099","123456","abc","110030"].map(p => (
+          <span key={p} className="pg-chip" onClick={()=>{setPin(p); setOut(api.validate(p));}}>{p}</span>
+        ))}
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function DigipinEncodePlayground({ api }) {
+  const [lat, setLat] = useState("28.622788");
+  const [lng, setLng] = useState("77.213033");
+  const [out, setOut] = useState(null);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /digipin/encode</div>
+      <div className="pg-row">
+        <input className="pg-input" value={lat} onChange={e=>setLat(e.target.value)} placeholder="latitude" />
+        <input className="pg-input" value={lng} onChange={e=>setLng(e.target.value)} placeholder="longitude" />
+        <button className="pg-btn" onClick={()=>setOut(api.encodeDigipin(parseFloat(lat), parseFloat(lng)))}>Encode</button>
+      </div>
+      <div className="pg-hint">
+        Defaults to <strong>Dak Bhawan</strong> — the canonical test coordinates from India Post's technical document. Should produce <code style={{fontFamily:"Inter",fontSize:12,color:"var(--accent-2)"}}>39J-49L-L8T4</code>.
+      </div>
+      <div className="pg-row">
+        <span className="pg-chip" onClick={()=>{setLat("28.622788"); setLng("77.213033");}}>Dak Bhawan</span>
+        <span className="pg-chip" onClick={()=>{setLat("28.6139"); setLng("77.2090");}}>India Gate</span>
+        <span className="pg-chip" onClick={()=>{setLat("28.5494"); setLng("77.1860");}}>IIT Delhi</span>
+        <span className="pg-chip" onClick={()=>{setLat("28.5562"); setLng("77.1000");}}>IGI Airport T3</span>
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function DigipinDecodePlayground({ api }) {
+  const [code, setCode] = useState("39J-49L-L8T4");
+  const [out, setOut] = useState(null);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /digipin/decode</div>
+      <div className="pg-row">
+        <input className="pg-input" value={code} onChange={e=>setCode(e.target.value.toUpperCase())} placeholder="XXX-XXX-XXXX" />
+        <button className="pg-btn" onClick={()=>setOut(api.decodeDigipin(code))}>Decode</button>
+      </div>
+      <div className="pg-row">
+        <span className="pg-chip" onClick={()=>setCode("39J-49L-L8T4")}>39J-49L-L8T4</span>
+        <span className="pg-chip" onClick={()=>setCode("39J-49K-666T")}>39J-49K-666T (110001)</span>
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function DigipinByPincodePlayground({ api }) {
+  const [pin, setPin] = useState("110001");
+  const [out, setOut] = useState(null);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /pincodes/:pincode/digipin</div>
+      <div className="pg-row">
+        <Autocomplete api={api} value={pin} onChange={setPin} onPick={setPin} placeholder="110001" />
+        <button className="pg-btn" onClick={()=>setOut(api.digipinByPincode(pin))}>GET</button>
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function SearchPlayground({ api }) {
+  const [q, setQ] = useState("barakhamba");
+  const [out, setOut] = useState(null);
+  const presets = ["barakhamba","uttam nagar","barahkhamba","red fort","aiims","banno enclave","connaught"];
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /search</div>
+      <div className="pg-row">
+        <input className="pg-input" value={q} onChange={e=>setQ(e.target.value)} placeholder="locality, post office, metro, landmark, typo..." />
+        <button className="pg-btn" onClick={()=>setOut(api.search(q, { limit: 8 }))}>Search</button>
+      </div>
+      <div className="pg-row">
+        {presets.map(p => (
+          <span key={p} className="pg-chip" onClick={()=>{setQ(p); setOut(api.search(p, { limit: 8 }));}}>{p}</span>
+        ))}
+      </div>
+      <div className="pg-hint">Try a typo ("barahkhamba"), an ambiguous name ("jeevan park" — exists in 3 pincodes), or a landmark.</div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function NearbyPlayground({ api }) {
+  const [pin, setPin] = useState("110001");
+  const [radius, setRadius] = useState(2000);
+  const [limit, setLimit] = useState(3);
+  const [types, setTypes] = useState({metro_station:true, bus_stop:true, landmark:true});
+  const [out, setOut] = useState(null);
+  const activeTypes = Object.keys(types).filter(t=>types[t]);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /pincodes/:pincode/nearby</div>
+      <div className="pg-row">
+        <Autocomplete api={api} value={pin} onChange={setPin} onPick={setPin} placeholder="110001" />
+        <input className="pg-input" style={{maxWidth:110}} type="number" value={radius} onChange={e=>setRadius(+e.target.value)} placeholder="radius (m)" />
+        <input className="pg-input" style={{maxWidth:80}} type="number" value={limit} onChange={e=>setLimit(+e.target.value)} placeholder="limit" />
+      </div>
+      <div className="pg-row">
+        {Object.keys(types).map(t => (
+          <span key={t} className={`pg-chip ${types[t]?"active":""}`} onClick={()=>setTypes({...types, [t]:!types[t]})}>{t}</span>
+        ))}
+        <button className="pg-btn" onClick={()=>setOut(api.nearbyPois(pin, { radius, limit, types: activeTypes }))}>Find POIs</button>
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function NearestPincodesPlayground({ api }) {
+  const [lat, setLat] = useState("28.6139");
+  const [lng, setLng] = useState("77.2090");
+  const [out, setOut] = useState(null);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /nearby</div>
+      <div className="pg-row">
+        <input className="pg-input" value={lat} onChange={e=>setLat(e.target.value)} placeholder="latitude" />
+        <input className="pg-input" value={lng} onChange={e=>setLng(e.target.value)} placeholder="longitude" />
+        <button className="pg-btn" onClick={()=>setOut(api.nearestPincodes(parseFloat(lat), parseFloat(lng), 5))}>Find nearest</button>
+      </div>
+      <div className="pg-row">
+        <span className="pg-chip" onClick={()=>{setLat("28.6139"); setLng("77.2090");}}>India Gate</span>
+        <span className="pg-chip" onClick={()=>{setLat("28.5494"); setLng("77.1860");}}>IIT Delhi</span>
+        <span className="pg-chip" onClick={()=>{setLat("28.6328"); setLng("77.2197");}}>Connaught Place</span>
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function ConstituencyPlayground({ api }) {
+  const [name, setName] = useState("New Delhi");
+  const [out, setOut] = useState(null);
+  const all = api.lokSabhaList().data;
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /constituencies/lok-sabha</div>
+      <div className="pg-row">
+        <button className="pg-btn" onClick={()=>setOut(api.lokSabhaList())}>List all (7)</button>
+        <input className="pg-input" value={name} onChange={e=>setName(e.target.value)} placeholder="e.g. New Delhi" />
+        <button className="pg-btn" onClick={()=>setOut(api.lokSabha(name))}>Get one</button>
+      </div>
+      <div className="pg-row">
+        {all.map(c => (
+          <span key={c.constituency} className="pg-chip" onClick={()=>{setName(c.constituency); setOut(api.lokSabha(c.constituency));}}>{c.constituency} ({c.pincode_count})</span>
+        ))}
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function BulkPlayground({ api }) {
+  const [text, setText] = useState('["110001", "110016", "110099"]');
+  const [out, setOut] = useState(null);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · POST /bulk</div>
+      <div className="pg-row">
+        <input className="pg-input" value={text} onChange={e=>setText(e.target.value)} placeholder='["110001","110016"]' />
+        <button className="pg-btn" onClick={()=>{
+          try { setOut(api.bulk(JSON.parse(text))); }
+          catch { setOut({ error:"Invalid JSON" }); }
+        }}>POST</button>
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function DistrictPlayground({ api }) {
+  const [d, setD] = useState("South Delhi");
+  const [out, setOut] = useState(null);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /districts/:district</div>
+      <div className="pg-row">
+        <input className="pg-input" value={d} onChange={e=>setD(e.target.value)} placeholder="district name" />
+        <button className="pg-btn" onClick={()=>{
+          const key = d.toLowerCase();
+          const matched = api.pincodes.filter(p => p.district.toLowerCase().includes(key));
+          setOut({ success: matched.length>0, count: matched.length, data: matched });
+        }}>GET</button>
+      </div>
+      <div className="pg-row">
+        {["South Delhi","Central Delhi","East Delhi","New Delhi","North West Delhi","West Delhi"].map(x => (
+          <span key={x} className="pg-chip" onClick={()=>setD(x)}>{x}</span>
+        ))}
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+function PoisPlayground({ api }) {
+  const [type, setType] = useState("metro_station");
+  const [out, setOut] = useState(null);
+  return (
+    <div className="playground">
+      <div className="playground-label">Try it · /pois</div>
+      <div className="pg-row">
+        {["all","metro_station","bus_stop","landmark"].map(t => (
+          <span key={t} className={`pg-chip ${type===t?"active":""}`} onClick={()=>setType(t)}>{t}</span>
+        ))}
+        <button className="pg-btn" onClick={()=>{
+          const r = type==="all" ? api.allPois : api.allPois.filter(p=>p.type===type);
+          setOut({ success:true, count:r.length, data:r.slice(0,15) });
+        }}>GET (showing up to 15)</button>
+      </div>
+      {out && <ResponseBox data={out} />}
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// MAIN
+// ═══════════════════════════════════════════════════════════════════════════
+function App() {
+  const [api, setApi] = useState(null);
+  const [active, setActive] = useState("overview");
+
+  useEffect(() => {
+    (async () => {
+      const pincodes = await loadJSON(["./pincodes.json","../data/pincodes.json","./data/pincodes.json"]);
+      const pois = await loadJSON(["./pois.json","../data/pois.json","./data/pois.json"]);
+      if (pincodes) setApi(makeApi(pincodes, pois));
+    })();
+  }, []);
+
+  useEffect(() => {
+    if (!api) return;
+    const obs = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        if (e.isIntersecting) setActive(e.target.id);
+      }
+    }, { rootMargin: "-30% 0px -60% 0px" });
+    document.querySelectorAll("section[id]").forEach(s => obs.observe(s));
+    return () => obs.disconnect();
+  }, [api]);
+
+  if (!api) {
+    return (
+      <div style={{padding:80, textAlign:"center", fontFamily:"Fraunces, serif", color:"var(--ink-3)"}}>
+        Loading dataset<span className="loader"/>
+        <div style={{fontSize:12, marginTop:16, fontFamily:"JetBrains Mono"}}>
+          Place this docs.html alongside <code>pincodes.json</code> + <code>pois.json</code>
+          <br/>(or in the same directory tree as <code>data/</code>).
+        </div>
+      </div>
+    );
+  }
+
+  const pinCount = api.pincodes.length;
+  const poiCount = api.allPois.length;
+  const lsCount = api.lokSabhaList().data.length;
+
+  return (
+    <div className="app">
+      <Sidebar active={active} />
+      <main>
+
+        {/* HERO */}
+        <div className="hero" id="overview">
+          <h1>Postal data for Delhi</h1>
+          <p className="hero-lede">
+            A REST API for Delhi's {pinCount} pincodes, every record carries its DIGIPIN,
+            centroid, administrative chain (district → division → state → country),
+            Lok Sabha constituency, post offices, fuzzy-searchable localities, and {poiCount} curated points of interest.
+            One <code style={{background:"var(--paper-2)",padding:"2px 6px",borderRadius:3,fontFamily:"JetBrains Mono",fontSize:14}}>/full</code> endpoint returns everything in one call.
+          </p>
+          <div className="hero-stats">
+            <div>
+              <div className="hero-stat-num">{pinCount}</div>
+              <div className="hero-stat-label">Pincodes</div>
+            </div>
+            <div>
+              <div className="hero-stat-num">{pinCount}</div>
+              <div className="hero-stat-label">DIGIPINs</div>
+            </div>
+            <div>
+              <div className="hero-stat-num">{lsCount}</div>
+              <div className="hero-stat-label">LS constituencies</div>
+            </div>
+            <div>
+              <div className="hero-stat-num">{poiCount}</div>
+              <div className="hero-stat-label">Points of interest</div>
+            </div>
+            <div>
+              <div className="hero-stat-num">17</div>
+              <div className="hero-stat-label">Endpoints</div>
+            </div>
+          </div>
+          <div className="status-line">
+            Base URL <code style={{color:"var(--accent-2)"}}>https://lookin-1lmz.onrender.com</code> 
+          </div>
+        </div>
+
+        {/* SCHEMA */}
+        <section id="schema">
+          <span className="endpoint-method">SCHEMA</span>
+          <h2>The <em style={{fontStyle:"italic",color:"var(--accent)"}}>/full</em> response, end to end.</h2>
+          <p className="endpoint-desc">
+            Every pincode record is structured into nine logical groups. Fields marked
+            <span className="conf-tag unverified">unverified</span> are intentionally <code>null</code> until
+            authoritative sources (ECI assembly polygons, MCD zone GIS, India Post per-PO addresses) are integrated.
+            They will never contain fabricated data.
+          </p>
+          <div className="schema">
+            {FULL_SCHEMA.map(g => (
+              <div key={g.group} className="schema-group">
+                <div className="schema-header">{g.group}</div>
+                <div className="schema-fields">
+                  {g.fields.map(([name,type,conf]) => (
+                    <div key={name} className="schema-field">
+                      <span>
+                        <span className="schema-field-name">{name}</span>
+                        <span className={`conf-tag ${conf}`}>{conf}</span>
+                      </span>
+                      <span className="schema-field-type">{type}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* CONFIDENCE LEGEND */}
+        <section id="confidence">
+          <span className="endpoint-method">REFERENCE</span>
+          <h2>Confidence labels, <em>honest by design.</em></h2>
+          <p className="endpoint-desc">
+            Every record carries a <code>data_confidence</code> block telling you which fields you can trust
+            for compliance work, and which are derived or approximate.
+          </p>
+          <table>
+            <thead><tr><th>Label</th><th>Meaning</th><th>Examples</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><span className="conf-tag authoritative">authoritative</span></td>
+                <td>Published by an official body and stable.</td>
+                <td>pincode, district, division, state_code, std_code, gst_state_code</td>
+              </tr>
+              <tr>
+                <td><span className="conf-tag computed">computed</span></td>
+                <td>Deterministic from another authoritative field.</td>
+                <td>digipin (from centroid via India Post's algorithm), sibling_pincodes</td>
+              </tr>
+              <tr>
+                <td><span className="conf-tag verified">verified</span></td>
+                <td>Cross-referenced with an official mapping.</td>
+                <td>lok_sabha_constituency (ECI data — 7 in Delhi)</td>
+              </tr>
+              <tr>
+                <td><span className="conf-tag approximate">approximate</span></td>
+                <td>Best-effort; India Post does not publish pincode boundaries officially.</td>
+                <td>centroid.lat/lng, per-post-office DIGIPIN</td>
+              </tr>
+              <tr>
+                <td><span className="conf-tag unverified">unverified</span></td>
+                <td>Returned as <code>null</code> until authoritative source integrated.</td>
+                <td>vidhan_sabha_constituency, municipal_zone, post_office.address</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        {/* FULL — the headline endpoint */}
+        <section id="full">
+          <span className="endpoint-method">GET</span>
+          <h2>The aggregated <em>full record.</em></h2>
+          <div className="endpoint-path">/pincodes/:pincode/full</div>
+          <p className="endpoint-desc">
+            One request, the entire profile — DIGIPIN, centroid, post offices (each with their own DIGIPIN),
+            district, state &amp; country codes, Lok Sabha constituency, nearby metro stations &amp; bus stops &amp; landmarks,
+            and sibling pincodes in the same district. The one endpoint to bookmark if you're integrating end-to-end.
+          </p>
+          <h3>Query parameters</h3>
+          <table>
+            <thead><tr><th>Param</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td className="param-name">radius</td><td className="param-type">number (m)</td><td>2000</td><td>POI search radius in meters (max 10000)</td></tr>
+              <tr><td className="param-name">limit</td><td className="param-type">number</td><td>5</td><td>Max POIs per type (max 20)</td></tr>
+            </tbody>
+          </table>
+          <FullPlayground api={api} />
+          <h3>Code samples</h3>
+          <CodeTabs samples={{
+            cURL: `curl 'https://lookin-1lmz.onrender.com/pincodes/110001/full?radius=2000&limit=5'`,
+            JavaScript: `const res = await fetch('https://lookin-1lmz.onrender.com/pincodes/110001/full?radius=2000');
+const { data } = await res.json();
+
+console.log('DIGIPIN:', data.identity.digipin);            // 39J-49K-666T
+console.log('LS:',      data.political.lok_sabha_constituency);  // "New Delhi"
+console.log('Post offices:', data.postal.post_offices.length);
+console.log('Nearby metros:', data.nearby.metro_station.length);
+
+// Walk the data_confidence block to know what's safe to use
+for (const [field, label] of Object.entries(data.data_confidence)) {
+  if (label === 'unverified') console.warn(field, 'is null on purpose');
+}`,
+            Python: `import requests
+
+r = requests.get('https://lookin-1lmz.onrender.com/pincodes/110001/full',
+                 params={'radius': 2000, 'limit': 5})
+data = r.json()['data']
+
+print('DIGIPIN:', data['identity']['digipin'])
+print('LS:    ', data['political']['lok_sabha_constituency'])
+print('Centroid:', data['geography']['centroid'])
+print('PO #1 DIGIPIN:', data['postal']['post_offices'][0]['digipin'])`
+          }} />
+        </section>
+
+        {/* LOOKUP */}
+        <section id="lookup">
+          <span className="endpoint-method">GET</span>
+          <h2>Pincode <em>core record.</em></h2>
+          <div className="endpoint-path">/pincodes/:pincode</div>
+          <p className="endpoint-desc">
+            Modular endpoint that returns the same data the v3.0 schema carries — but as a flat record
+            rather than the grouped <code>/full</code> response. Useful when you don't need POIs or sibling pincodes.
+          </p>
+          <LookupPlayground api={api} />
+          <h3>Code samples</h3>
+          <CodeTabs samples={{
+            cURL: `curl https://lookin-1lmz.onrender.com/pincodes/110001`,
+            JavaScript: `const res = await fetch('https://lookin-1lmz.onrender.com/pincodes/110001');
+const { data } = await res.json();
+console.log(data.digipin, data.lok_sabha_constituency);`,
+            Python: `import requests
+data = requests.get('https://lookin-1lmz.onrender.com/pincodes/110001').json()['data']
+print(data['digipin'], data['lok_sabha_constituency'])`
+          }} />
+        </section>
+
+        {/* VALIDATE */}
+        <section id="validate">
+          <span className="endpoint-method">GET</span>
+          <h2>Validate a pincode.</h2>
+          <div className="endpoint-path">/pincodes/:pincode/validate</div>
+          <p className="endpoint-desc">
+            Lightweight existence check — returns <code>valid: true/false</code> with no payload. Ideal
+            for form validators where you don't need the record.
+          </p>
+          <ValidatePlayground api={api} />
+        </section>
+
+        {/* LIST */}
+        <section id="list">
+          <span className="endpoint-method">GET</span>
+          <h2>List &amp; filter <em>pincodes.</em></h2>
+          <div className="endpoint-path">/pincodes?district=...&amp;q=...</div>
+          <p className="endpoint-desc">
+            Returns every Delhi pincode, optionally filtered. <code>?district=</code> matches case-insensitively;
+            <code>?q=</code> matches against pincode, district, or any locality.
+          </p>
+          <DistrictPlayground api={api} />
+        </section>
+
+        {/* DIGIPIN — encode */}
+        <section id="digipin-encode">
+          <span className="endpoint-method">GET</span>
+          <h2>DIGIPIN — <em>encode coordinates.</em></h2>
+          <div className="endpoint-path">/digipin/encode?lat=...&amp;lng=...</div>
+          <p className="endpoint-desc">
+            India Post's official 10-character geo-code, implemented from the March 2025 final spec.
+            Uses the 16-symbol alphabet (<code>2-9, C, J, K, L, M, P, F, T</code>) on a recursive 4×4 grid
+            covering <code>2.5–38.5°N</code> by <code>63.5–99.5°E</code>. Each code resolves to a ~3.8m × 3.8m cell.
+          </p>
+          <div className="callout">
+            <strong>Verified:</strong> Round-trip tested against the canonical Dak Bhawan reference
+            from India Post's technical document. <code>(28.622788, 77.213033) → 39J-49L-L8T4</code>.
+          </div>
+          <DigipinEncodePlayground api={api} />
+          <h3>Code samples</h3>
+          <CodeTabs samples={{
+            cURL: `curl 'https://lookin-1lmz.onrender.com/digipin/encode?lat=28.622788&lng=77.213033'`,
+            JavaScript: `const { data } = await fetch(
+  'https://lookin-1lmz.onrender.com/digipin/encode?lat=28.622788&lng=77.213033'
+).then(r => r.json());
+console.log(data.digipin);  // 39J-49L-L8T4`,
+            Python: `import requests
+r = requests.get('https://lookin-1lmz.onrender.com/digipin/encode',
+                 params={'lat': 28.622788, 'lng': 77.213033}).json()
+print(r['data']['digipin'])  # 39J-49L-L8T4`
+          }} />
+        </section>
+
+        {/* DIGIPIN — decode */}
+        <section id="digipin-decode">
+          <span className="endpoint-method">GET</span>
+          <h2>DIGIPIN — <em>decode back to lat,lng.</em></h2>
+          <div className="endpoint-path">/digipin/decode?code=XXX-XXX-XXXX</div>
+          <p className="endpoint-desc">
+            Reverses any valid DIGIPIN to the center coordinates of its 4m grid cell.
+            Format is hyphenated <code>XXX-XXX-XXXX</code> but hyphens are stripped server-side.
+          </p>
+          <DigipinDecodePlayground api={api} />
+        </section>
+
+        {/* DIGIPIN — by pincode */}
+        <section id="digipin-pincode">
+          <span className="endpoint-method">GET</span>
+          <h2>DIGIPIN <em>by pincode.</em></h2>
+          <div className="endpoint-path">/pincodes/:pincode/digipin</div>
+          <p className="endpoint-desc">
+            Convenience endpoint that returns just the DIGIPIN + centroid for a given pincode. Equivalent
+            to looking up the full record and reading <code>data.digipin</code>.
+          </p>
+          <DigipinByPincodePlayground api={api} />
+        </section>
+
+        {/* SEARCH */}
+        <section id="fuzzy">
+          <span className="endpoint-method">GET</span>
+          <h2>Universal <em>fuzzy search.</em></h2>
+          <div className="endpoint-path">/search?q=...</div>
+          <p className="endpoint-desc">
+            Searches localities, post offices, metro stations, and landmarks in one call. Handles
+            typos and suffix variants ("vihar" / "nagar" / "enclave") using trigram + Levenshtein +
+            suffix-aware scoring. Flags ambiguous matches with <code>disambiguation_required</code>.
+          </p>
+          <SearchPlayground api={api} />
+          <h3>How matching works</h3>
+          <table>
+            <thead><tr><th>Score</th><th>match_type</th><th>What it means</th></tr></thead>
+            <tbody>
+              <tr><td className="param-name">≥ 0.95</td><td><span className="conf-tag verified">exact</span></td><td>Identical or near-identical string</td></tr>
+              <tr><td className="param-name">0.80 – 0.94</td><td><span className="conf-tag computed">partial</span></td><td>One typo, missing suffix, or close variant</td></tr>
+              <tr><td className="param-name">0.60 – 0.79</td><td><span className="conf-tag approximate">fuzzy</span></td><td>Multiple character differences, still meaningful</td></tr>
+              <tr><td className="param-name">0.55 – 0.59</td><td><span className="conf-tag unknown">weak</span></td><td>Below the cutoff by default; surface only if explicitly asked</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        {/* NEARBY POIs */}
+        <section id="nearby-pois">
+          <span className="endpoint-method">GET</span>
+          <h2>Nearby <em>points of interest.</em></h2>
+          <div className="endpoint-path">/pincodes/:pincode/nearby</div>
+          <p className="endpoint-desc">
+            Returns metro stations, bus stops, and landmarks within a radius of the pincode's centroid.
+            Metro stations include walking time estimates (80m/min). Sorted by distance, capped by <code>limit</code>.
+          </p>
+          <NearbyPlayground api={api} />
+        </section>
+
+        {/* NEAREST PINCODES */}
+        <section id="nearest-pincodes">
+          <span className="endpoint-method">GET</span>
+          <h2>Nearest pincodes by <em>lat, lng.</em></h2>
+          <div className="endpoint-path">/nearby?lat=...&amp;lng=...</div>
+          <p className="endpoint-desc">
+            Reverse geocode any coordinates inside Delhi to the closest pincodes (by haversine distance to centroids).
+            Useful when you have GPS data but no postal info.
+          </p>
+          <NearestPincodesPlayground api={api} />
+        </section>
+
+        {/* DISTRICTS */}
+        <section id="districts">
+          <span className="endpoint-method">GET</span>
+          <h2>Districts.</h2>
+          <div className="endpoint-path">/districts &middot; /districts/:district</div>
+          <p className="endpoint-desc">
+            Browse pincodes grouped by Delhi's revenue districts (New Delhi, Central, South, West, etc.).
+          </p>
+          <DistrictPlayground api={api} />
+        </section>
+
+        {/* CONSTITUENCIES */}
+        <section id="constituencies">
+          <span className="endpoint-method">GET</span>
+          <h2>Lok Sabha <em>constituencies.</em></h2>
+          <div className="endpoint-path">/constituencies/lok-sabha &middot; /constituencies/lok-sabha/:name</div>
+          <p className="endpoint-desc">
+            Delhi has exactly <strong>7</strong> Lok Sabha constituencies: New Delhi, Chandni Chowk,
+            North East Delhi, East Delhi, North West Delhi, West Delhi, South Delhi. The mapping is
+            verified against ECI delimitation data.
+          </p>
+          <div className="callout warn">
+            <strong>Vidhan Sabha constituencies (70 ACs)</strong> are intentionally <code>null</code> until
+            ECI's official polygon-to-pincode mapping is integrated. We will not guess them.
+          </div>
+          <ConstituencyPlayground api={api} />
+        </section>
+
+        {/* POIS */}
+        <section id="pois">
+          <span className="endpoint-method">GET</span>
+          <h2>POI <em>catalog.</em></h2>
+          <div className="endpoint-path">/pois?type=...&amp;pincode=...</div>
+          <p className="endpoint-desc">
+            The underlying POI dataset — metro stations (with lines), bus stops (with route numbers),
+            and landmarks (with categories). Filter by type or pincode.
+          </p>
+          <PoisPlayground api={api} />
+        </section>
+
+        {/* BULK */}
+        <section id="bulk">
+          <span className="endpoint-method post">POST</span>
+          <h2>Bulk <em>lookup.</em></h2>
+          <div className="endpoint-path">POST /bulk</div>
+          <p className="endpoint-desc">
+            Look up up to 50 pincodes in one request. Each result includes a <code>found</code> flag.
+            Body: <code>{`{ "pincodes": ["110001", "110016"] }`}</code>
+          </p>
+          <BulkPlayground api={api} />
+          <h3>Code samples</h3>
+          <CodeTabs samples={{
+            cURL: `curl -X POST https://lookin-1lmz.onrender.com/bulk \\
+  -H 'Content-Type: application/json' \\
+  -d '{"pincodes":["110001","110016","110099"]}'`,
+            JavaScript: `const res = await fetch('https://lookin-1lmz.onrender.com/bulk', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ pincodes: ['110001','110016','110099'] }),
+});
+const { data, found, not_found } = await res.json();
+console.log(\`\${found} found, \${not_found} not found\`);`,
+            Python: `import requests
+r = requests.post('https://lookin-1lmz.onrender.com/bulk',
+  json={'pincodes': ['110001','110016','110099']}).json()
+print(f"{r['found']} found, {r['not_found']} missing")`
+          }} />
+        </section>
+
+        <footer>
+          <strong>Delhi pincode API Service</strong> postal · civic · political · geo-coded.<br/>
+          DIGIPIN algorithm: <a href="https://github.com/INDIAPOST-gov/digipin">India Post (open-source, Apache 2.0)</a>.<br/>
+          Pincode data: India Post. POIs: curated from DMRC, DTC, OpenStreetMap. Lok Sabha mapping: ECI.<br/>
+        </footer>
+
+      </main>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>
