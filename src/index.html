@@ -1412,7 +1412,7 @@ function App() {
             </div>
           </div>
           <div className="status-line">
-            Base URL <code style={{color:"var(--accent-2)"}}>http://localhost:3000</code> 
+            Base URL <code style={{color:"var(--accent-2)"}}>https://lookin-1lmz.onrender.com</code> 
           </div>
         </div>
 
@@ -1507,8 +1507,8 @@ function App() {
           <FullPlayground api={api} />
           <h3>Code samples</h3>
           <CodeTabs samples={{
-            cURL: `curl 'http://localhost:3000/pincodes/110001/full?radius=2000&limit=5'`,
-            JavaScript: `const res = await fetch('http://localhost:3000/pincodes/110001/full?radius=2000');
+            cURL: `curl 'https://lookin-1lmz.onrender.com/pincodes/110001/full?radius=2000&limit=5'`,
+            JavaScript: `const res = await fetch('https://lookin-1lmz.onrender.com/pincodes/110001/full?radius=2000');
 const { data } = await res.json();
 
 console.log('DIGIPIN:', data.identity.digipin);            // 39J-49K-666T
@@ -1522,7 +1522,7 @@ for (const [field, label] of Object.entries(data.data_confidence)) {
 }`,
             Python: `import requests
 
-r = requests.get('http://localhost:3000/pincodes/110001/full',
+r = requests.get('https://lookin-1lmz.onrender.com/pincodes/110001/full',
                  params={'radius': 2000, 'limit': 5})
 data = r.json()['data']
 
@@ -1545,12 +1545,12 @@ print('PO #1 DIGIPIN:', data['postal']['post_offices'][0]['digipin'])`
           <LookupPlayground api={api} />
           <h3>Code samples</h3>
           <CodeTabs samples={{
-            cURL: `curl http://localhost:3000/pincodes/110001`,
-            JavaScript: `const res = await fetch('http://localhost:3000/pincodes/110001');
+            cURL: `curl https://lookin-1lmz.onrender.com/pincodes/110001`,
+            JavaScript: `const res = await fetch('https://lookin-1lmz.onrender.com/pincodes/110001');
 const { data } = await res.json();
 console.log(data.digipin, data.lok_sabha_constituency);`,
             Python: `import requests
-data = requests.get('http://localhost:3000/pincodes/110001').json()['data']
+data = requests.get('https://lookin-1lmz.onrender.com/pincodes/110001').json()['data']
 print(data['digipin'], data['lok_sabha_constituency'])`
           }} />
         </section>
@@ -1596,13 +1596,13 @@ print(data['digipin'], data['lok_sabha_constituency'])`
           <DigipinEncodePlayground api={api} />
           <h3>Code samples</h3>
           <CodeTabs samples={{
-            cURL: `curl 'http://localhost:3000/digipin/encode?lat=28.622788&lng=77.213033'`,
+            cURL: `curl 'https://lookin-1lmz.onrender.com/digipin/encode?lat=28.622788&lng=77.213033'`,
             JavaScript: `const { data } = await fetch(
-  'http://localhost:3000/digipin/encode?lat=28.622788&lng=77.213033'
+  'https://lookin-1lmz.onrender.com/digipin/encode?lat=28.622788&lng=77.213033'
 ).then(r => r.json());
 console.log(data.digipin);  // 39J-49L-L8T4`,
             Python: `import requests
-r = requests.get('http://localhost:3000/digipin/encode',
+r = requests.get('https://lookin-1lmz.onrender.com/digipin/encode',
                  params={'lat': 28.622788, 'lng': 77.213033}).json()
 print(r['data']['digipin'])  # 39J-49L-L8T4`
           }} />
@@ -1731,10 +1731,10 @@ print(r['data']['digipin'])  # 39J-49L-L8T4`
           <BulkPlayground api={api} />
           <h3>Code samples</h3>
           <CodeTabs samples={{
-            cURL: `curl -X POST http://localhost:3000/bulk \\
+            cURL: `curl -X POST https://lookin-1lmz.onrender.com/bulk \\
   -H 'Content-Type: application/json' \\
   -d '{"pincodes":["110001","110016","110099"]}'`,
-            JavaScript: `const res = await fetch('http://localhost:3000/bulk', {
+            JavaScript: `const res = await fetch('https://lookin-1lmz.onrender.com/bulk', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ pincodes: ['110001','110016','110099'] }),
@@ -1742,7 +1742,7 @@ print(r['data']['digipin'])  # 39J-49L-L8T4`
 const { data, found, not_found } = await res.json();
 console.log(\`\${found} found, \${not_found} not found\`);`,
             Python: `import requests
-r = requests.post('http://localhost:3000/bulk',
+r = requests.post('https://lookin-1lmz.onrender.com/bulk',
   json={'pincodes': ['110001','110016','110099']}).json()
 print(f"{r['found']} found, {r['not_found']} missing")`
           }} />
