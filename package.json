@@ -1,0 +1,23 @@
+{
+  "name": "delhi-pincode-api",
+  "version": "1.0.0",
+  "description": "REST API for Delhi pincodes, localities, districts and geo data",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "delhi",
+    "pincode",
+    "india",
+    "postal",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

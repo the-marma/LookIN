@@ -1,0 +1,5137 @@
+[
+  {
+    "pincode": "110001",
+    "digipin": "39J-49K-666T",
+    "centroid": {
+      "lat": 28.6328,
+      "lng": 77.2197,
+      "source": "approximate_centroid"
+    },
+    "district": "New Delhi",
+    "division": "New Delhi Central",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "New Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Connaught Place",
+      "Parliament Street",
+      "Sansad Marg",
+      "Janpath",
+      "Patel Chowk"
+    ],
+    "post_offices": [
+      {
+        "name": "CONNAUGHT PLACE",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-49K-666T",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6328,
+          "lng": 77.2197,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "PARLIAMENT STREET",
+        "type": "SUB OFFICE",
+        "delivery": false,
+        "digipin": "39J-49K-666T",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6328,
+          "lng": 77.2197,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "JANPATH",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-49K-666T",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6328,
+          "lng": 77.2197,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110002",
+    "digipin": "39J-492-4K97",
+    "centroid": {
+      "lat": 28.6419,
+      "lng": 77.2311,
+      "source": "approximate_centroid"
+    },
+    "district": "Central Delhi",
+    "division": "New Delhi Central",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "New Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Darya Ganj",
+      "Ajmeri Gate",
+      "Minto Road",
+      "IP Estate",
+      "Indraprastha",
+      "DDU Marg"
+    ],
+    "post_offices": [
+      {
+        "name": "INDRAPRASTHA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-492-4K97",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6419,
+          "lng": 77.2311,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "DARYA GANJ",
+        "type": "SUB OFFICE",
+        "delivery": false,
+        "digipin": "39J-492-4K97",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6419,
+          "lng": 77.2311,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "AJMERI GATE EXTN.",
+        "type": "SUB OFFICE",
+        "delivery": false,
+        "digipin": "39J-492-4K97",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6419,
+          "lng": 77.2311,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "MINTO ROAD",
+        "type": "SUB OFFICE",
+        "delivery": false,
+        "digipin": "39J-492-4K97",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6419,
+          "lng": 77.2311,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "I.P.ESTATE",
+        "type": "SUB OFFICE",
+        "delivery": false,
+        "digipin": "39J-492-4K97",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6419,
+          "lng": 77.2311,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "GANDHI SMARAK NIDHI",
+        "type": "SUB OFFICE",
+        "delivery": false,
+        "digipin": "39J-492-4K97",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6419,
+          "lng": 77.2311,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "A.G.C.R.",
+        "type": "SUB OFFICE",
+        "delivery": false,
+        "digipin": "39J-492-4K97",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6419,
+          "lng": 77.2311,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110003",
+    "digipin": "39J-4C8-8FC7",
+    "centroid": {
+      "lat": 28.6562,
+      "lng": 77.209,
+      "source": "approximate_centroid"
+    },
+    "district": "Central Delhi",
+    "division": "New Delhi Central",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "New Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Kashmere Gate",
+      "Civil Lines",
+      "Nicholson Road",
+      "Lothian Road"
+    ],
+    "post_offices": [
+      {
+        "name": "KASHMERE GATE",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4C8-8FC7",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6562,
+          "lng": 77.209,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "CIVIL LINES",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4C8-8FC7",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6562,
+          "lng": 77.209,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110005",
+    "digipin": "39J-3PM-KJC6",
+    "centroid": {
+      "lat": 28.66,
+      "lng": 77.22,
+      "source": "approximate_centroid"
+    },
+    "district": "Central Delhi",
+    "division": "New Delhi Central",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "Chandni Chowk",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Karol Bagh",
+      "Pusa Road",
+      "Dev Nagar",
+      "Arya Samaj Road",
+      "Rajendra Place"
+    ],
+    "post_offices": [
+      {
+        "name": "KAROL BAGH",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-3PM-KJC6",
+        "address": null,
+        "coordinates": {
+          "lat": 28.66,
+          "lng": 77.22,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "PUSA ROAD",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-3PM-KJC6",
+        "address": null,
+        "coordinates": {
+          "lat": 28.66,
+          "lng": 77.22,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "DEV NAGAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-3PM-KJC6",
+        "address": null,
+        "coordinates": {
+          "lat": 28.66,
+          "lng": 77.22,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110006",
+    "digipin": "39J-49C-68LJ",
+    "centroid": {
+      "lat": 28.6514,
+      "lng": 77.228,
+      "source": "approximate_centroid"
+    },
+    "district": "Central Delhi",
+    "division": "New Delhi Central",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "Chandni Chowk",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Chandni Chowk",
+      "Fatehpuri",
+      "Khari Baoli",
+      "Sadar Bazar",
+      "Nai Sarak"
+    ],
+    "post_offices": [
+      {
+        "name": "CHANDNI CHOWK",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-49C-68LJ",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6514,
+          "lng": 77.228,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "FATEHPURI",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-49C-68LJ",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6514,
+          "lng": 77.228,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "KHARI BAOLI",
+        "type": "SUB OFFICE",
+        "delivery": false,
+        "digipin": "39J-49C-68LJ",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6514,
+          "lng": 77.228,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110007",
+    "digipin": "39J-3M7-6F36",
+    "centroid": {
+      "lat": 28.678,
+      "lng": 77.209,
+      "source": "approximate_centroid"
+    },
+    "district": "North West Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "Chandni Chowk",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Kamla Nagar",
+      "Delhi University",
+      "Shakti Nagar",
+      "Kingsway Camp",
+      "GTB Nagar"
+    ],
+    "post_offices": [
+      {
+        "name": "KAMLA NAGAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-3M7-6F36",
+        "address": null,
+        "coordinates": {
+          "lat": 28.678,
+          "lng": 77.209,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "DELHI UNIVERSITY",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-3M7-6F36",
+        "address": null,
+        "coordinates": {
+          "lat": 28.678,
+          "lng": 77.209,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "SHAKTI NAGAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-3M7-6F36",
+        "address": null,
+        "coordinates": {
+          "lat": 28.678,
+          "lng": 77.209,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110008",
+    "digipin": "39J-4CF-JJM5",
+    "centroid": {
+      "lat": 28.653,
+      "lng": 77.176,
+      "source": "approximate_centroid"
+    },
+    "district": "West Delhi",
+    "division": "Delhi West",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "Chandni Chowk",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Patel Nagar",
+      "Rajouri Garden",
+      "Ramesh Nagar",
+      "Moti Nagar",
+      "Kirti Nagar"
+    ],
+    "post_offices": [
+      {
+        "name": "PATEL NAGAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4CF-JJM5",
+        "address": null,
+        "coordinates": {
+          "lat": 28.653,
+          "lng": 77.176,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "RAJOURI GARDEN",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4CF-JJM5",
+        "address": null,
+        "coordinates": {
+          "lat": 28.653,
+          "lng": 77.176,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "MOTI NAGAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4CF-JJM5",
+        "address": null,
+        "coordinates": {
+          "lat": 28.653,
+          "lng": 77.176,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110009",
+    "digipin": "39J-3P4-9M23",
+    "centroid": {
+      "lat": 28.672,
+      "lng": 77.225,
+      "source": "approximate_centroid"
+    },
+    "district": "North Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "Chandni Chowk",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Model Town",
+      "Mukherjee Nagar",
+      "Jawahar Nagar",
+      "Adarsh Nagar"
+    ],
+    "post_offices": [
+      {
+        "name": "MODEL TOWN",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-3P4-9M23",
+        "address": null,
+        "coordinates": {
+          "lat": 28.672,
+          "lng": 77.225,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "MUKHERJEE NAGAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-3P4-9M23",
+        "address": null,
+        "coordinates": {
+          "lat": 28.672,
+          "lng": 77.225,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110010",
+    "digipin": "39J-43T-7FM8",
+    "centroid": {
+      "lat": 28.5921,
+      "lng": 77.209,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Lodi Road",
+      "Khan Market",
+      "Sundar Nagar",
+      "Nizamuddin",
+      "Golf Links"
+    ],
+    "post_offices": [
+      {
+        "name": "LODI ROAD",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-43T-7FM8",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5921,
+          "lng": 77.209,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "KHAN MARKET",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-43T-7FM8",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5921,
+          "lng": 77.209,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "NIZAMUDDIN",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-43T-7FM8",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5921,
+          "lng": 77.209,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110011",
+    "digipin": "39J-429-L4TK",
+    "centroid": {
+      "lat": 28.6129,
+      "lng": 77.2295,
+      "source": "approximate_centroid"
+    },
+    "district": "New Delhi",
+    "division": "New Delhi Central",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "New Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Pragati Vihar",
+      "ITO",
+      "Bahadur Shah Zafar Marg",
+      "Vikram Nagar"
+    ],
+    "post_offices": [
+      {
+        "name": "PRAGATI VIHAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-429-L4TK",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6129,
+          "lng": 77.2295,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110012",
+    "digipin": "39J-44C-PKJM",
+    "centroid": {
+      "lat": 28.578,
+      "lng": 77.189,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "R.K. Puram",
+      "Munirka",
+      "Vasant Vihar",
+      "Safdarjung Enclave"
+    ],
+    "post_offices": [
+      {
+        "name": "R.K. PURAM",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-44C-PKJM",
+        "address": null,
+        "coordinates": {
+          "lat": 28.578,
+          "lng": 77.189,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "MUNIRKA",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-44C-PKJM",
+        "address": null,
+        "coordinates": {
+          "lat": 28.578,
+          "lng": 77.189,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110013",
+    "digipin": "39J-46F-2K62",
+    "centroid": {
+      "lat": 28.5823,
+      "lng": 77.251,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Okhla",
+      "Jamia Nagar",
+      "Abul Fazal Enclave",
+      "Shaheen Bagh"
+    ],
+    "post_offices": [
+      {
+        "name": "OKHLA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-46F-2K62",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5823,
+          "lng": 77.251,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "JAMIA NAGAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-46F-2K62",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5823,
+          "lng": 77.251,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110014",
+    "digipin": "39J-457-PL2K",
+    "centroid": {
+      "lat": 28.5687,
+      "lng": 77.242,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Jangpura",
+      "Bhogal",
+      "Kotla Mubarakpur",
+      "Lajpat Nagar"
+    ],
+    "post_offices": [
+      {
+        "name": "JANGPURA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-457-PL2K",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5687,
+          "lng": 77.242,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "LAJPAT NAGAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-457-PL2K",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5687,
+          "lng": 77.242,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110015",
+    "digipin": "39J-K85-8PC8",
+    "centroid": {
+      "lat": 28.637,
+      "lng": 77.131,
+      "source": "approximate_centroid"
+    },
+    "district": "West Delhi",
+    "division": "Delhi West",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Janakpuri",
+      "Uttam Nagar",
+      "Nawada",
+      "Bindapur"
+    ],
+    "post_offices": [
+      {
+        "name": "JANAKPURI",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-K85-8PC8",
+        "address": null,
+        "coordinates": {
+          "lat": 28.637,
+          "lng": 77.131,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "UTTAM NAGAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-K85-8PC8",
+        "address": null,
+        "coordinates": {
+          "lat": 28.637,
+          "lng": 77.131,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110016",
+    "digipin": "39J-4MC-F55C",
+    "centroid": {
+      "lat": 28.5494,
+      "lng": 77.186,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Hauz Khas",
+      "IIT Delhi",
+      "Green Park",
+      "Safdarjung",
+      "SDA"
+    ],
+    "post_offices": [
+      {
+        "name": "HAUZ KHAS",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4MC-F55C",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5494,
+          "lng": 77.186,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "IIT DELHI",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4MC-F55C",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5494,
+          "lng": 77.186,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "GREEN PARK",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4MC-F55C",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5494,
+          "lng": 77.186,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110017",
+    "digipin": "39J-4M7-6PMJ",
+    "centroid": {
+      "lat": 28.5355,
+      "lng": 77.21,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Saket",
+      "Malviya Nagar",
+      "Sheikh Sarai",
+      "Pushp Vihar"
+    ],
+    "post_offices": [
+      {
+        "name": "MALVIYA NAGAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4M7-6PMJ",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5355,
+          "lng": 77.21,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "SAKET",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4M7-6PMJ",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5355,
+          "lng": 77.21,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110018",
+    "digipin": "39J-K28-77K5",
+    "centroid": {
+      "lat": 28.618,
+      "lng": 77.105,
+      "source": "approximate_centroid"
+    },
+    "district": "West Delhi",
+    "division": "Delhi West",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Tilak Nagar",
+      "Subhash Nagar",
+      "Tagore Garden",
+      "Vikas Puri"
+    ],
+    "post_offices": [
+      {
+        "name": "TILAK NAGAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-K28-77K5",
+        "address": null,
+        "coordinates": {
+          "lat": 28.618,
+          "lng": 77.105,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "VIKAS PURI",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-K28-77K5",
+        "address": null,
+        "coordinates": {
+          "lat": 28.618,
+          "lng": 77.105,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110019",
+    "digipin": "39J-4TC-K2JK",
+    "centroid": {
+      "lat": 28.5456,
+      "lng": 77.256,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Kalkaji",
+      "Govindpuri",
+      "Tughlakabad",
+      "Mohan Estate"
+    ],
+    "post_offices": [
+      {
+        "name": "KALKAJI",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4TC-K2JK",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5456,
+          "lng": 77.256,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "GOVINDPURI",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4TC-K2JK",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5456,
+          "lng": 77.256,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110020",
+    "digipin": "39J-4MK-4LJF",
+    "centroid": {
+      "lat": 28.527,
+      "lng": 77.178,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Mehrauli",
+      "Qutub Minar",
+      "Lado Sarai",
+      "Ber Sarai"
+    ],
+    "post_offices": [
+      {
+        "name": "MEHRAULI",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4MK-4LJF",
+        "address": null,
+        "coordinates": {
+          "lat": 28.527,
+          "lng": 77.178,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110021",
+    "digipin": "39J-4KC-P67T",
+    "centroid": {
+      "lat": 28.578,
+      "lng": 77.156,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Dwarka",
+      "Dwarka Sector 1",
+      "Dwarka Sector 2",
+      "Dwarka Sector 3",
+      "Palam"
+    ],
+    "post_offices": [
+      {
+        "name": "DWARKA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4KC-P67T",
+        "address": null,
+        "coordinates": {
+          "lat": 28.578,
+          "lng": 77.156,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "PALAM",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4KC-P67T",
+        "address": null,
+        "coordinates": {
+          "lat": 28.578,
+          "lng": 77.156,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110022",
+    "digipin": "39J-4KT-JKJL",
+    "centroid": {
+      "lat": 28.556,
+      "lng": 77.167,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Vasant Kunj",
+      "Rangpuri",
+      "Mahipalpur",
+      "IGI Airport"
+    ],
+    "post_offices": [
+      {
+        "name": "VASANT KUNJ",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4KT-JKJL",
+        "address": null,
+        "coordinates": {
+          "lat": 28.556,
+          "lng": 77.167,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "MAHIPALPUR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4KT-JKJL",
+        "address": null,
+        "coordinates": {
+          "lat": 28.556,
+          "lng": 77.167,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110023",
+    "digipin": "39J-4C6-2555",
+    "centroid": {
+      "lat": 28.635,
+      "lng": 77.208,
+      "source": "approximate_centroid"
+    },
+    "district": "Central Delhi",
+    "division": "New Delhi Central",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "New Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Gole Market",
+      "Mandir Marg",
+      "Aram Bagh",
+      "Paharganj"
+    ],
+    "post_offices": [
+      {
+        "name": "GOLE MARKET",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4C6-2555",
+        "address": null,
+        "coordinates": {
+          "lat": 28.635,
+          "lng": 77.208,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "PAHARGANJ",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4C6-2555",
+        "address": null,
+        "coordinates": {
+          "lat": 28.635,
+          "lng": 77.208,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110024",
+    "digipin": "39J-466-C497",
+    "centroid": {
+      "lat": 28.5672,
+      "lng": 77.2756,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Ashram",
+      "Kotla",
+      "New Friends Colony",
+      "Sukhdev Vihar"
+    ],
+    "post_offices": [
+      {
+        "name": "ASHRAM",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-466-C497",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5672,
+          "lng": 77.2756,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "NEW FRIENDS COLONY",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-466-C497",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5672,
+          "lng": 77.2756,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110025",
+    "digipin": "39J-4T8-CM98",
+    "centroid": {
+      "lat": 28.5491,
+      "lng": 77.2756,
+      "source": "approximate_centroid"
+    },
+    "district": "South East Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Lajpat Nagar",
+      "Defence Colony",
+      "South Extension",
+      "Greater Kailash"
+    ],
+    "post_offices": [
+      {
+        "name": "LAJPAT NAGAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4T8-CM98",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5491,
+          "lng": 77.2756,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "DEFENCE COLONY",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4T8-CM98",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5491,
+          "lng": 77.2756,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "SOUTH EXTENSION",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4T8-CM98",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5491,
+          "lng": 77.2756,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110026",
+    "digipin": "39J-4JK-MJ44",
+    "centroid": {
+      "lat": 28.596,
+      "lng": 77.143,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Dwarka Sector 6",
+      "Dwarka Sector 7",
+      "Dwarka Sector 8",
+      "Dwarka Sector 9",
+      "Dwarka Sector 10"
+    ],
+    "post_offices": [
+      {
+        "name": "DWARKA SECTOR 6",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4JK-MJ44",
+        "address": null,
+        "coordinates": {
+          "lat": 28.596,
+          "lng": 77.143,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110027",
+    "digipin": "39J-K98-78F2",
+    "centroid": {
+      "lat": 28.654,
+      "lng": 77.105,
+      "source": "approximate_centroid"
+    },
+    "district": "West Delhi",
+    "division": "Delhi West",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Paschim Vihar",
+      "Madipur",
+      "Peera Garhi",
+      "Ashok Nagar"
+    ],
+    "post_offices": [
+      {
+        "name": "PASCHIM VIHAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-K98-78F2",
+        "address": null,
+        "coordinates": {
+          "lat": 28.654,
+          "lng": 77.105,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "PEERA GARHI",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-K98-78F2",
+        "address": null,
+        "coordinates": {
+          "lat": 28.654,
+          "lng": 77.105,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110028",
+    "digipin": "39J-4J3-359F",
+    "centroid": {
+      "lat": 28.609,
+      "lng": 77.153,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Palam Village",
+      "Raj Nagar",
+      "Sagarpur",
+      "Kakrola"
+    ],
+    "post_offices": [
+      {
+        "name": "PALAM VILLAGE",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4J3-359F",
+        "address": null,
+        "coordinates": {
+          "lat": 28.609,
+          "lng": 77.153,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110029",
+    "digipin": "39J-4P3-KLM7",
+    "centroid": {
+      "lat": 28.5355,
+      "lng": 77.22,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Greater Kailash I",
+      "Greater Kailash II",
+      "Chirag Delhi",
+      "Panchsheel Park"
+    ],
+    "post_offices": [
+      {
+        "name": "GREATER KAILASH",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4P3-KLM7",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5355,
+          "lng": 77.22,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "CHIRAG DELHI",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4P3-KLM7",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5355,
+          "lng": 77.22,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110030",
+    "digipin": "39J-4MM-2KFC",
+    "centroid": {
+      "lat": 28.5211,
+      "lng": 77.189,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Chattarpur",
+      "Sultanpur",
+      "Ghitorni",
+      "Mandi Village"
+    ],
+    "post_offices": [
+      {
+        "name": "CHATTARPUR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4MM-2KFC",
+        "address": null,
+        "coordinates": {
+          "lat": 28.5211,
+          "lng": 77.189,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110031",
+    "digipin": "39J-2L7-C867",
+    "centroid": {
+      "lat": 28.6823,
+      "lng": 77.312,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Nand Nagri",
+      "Sunder Nagri",
+      "Bhajan Pura",
+      "Yamuna Vihar"
+    ],
+    "post_offices": [
+      {
+        "name": "NAND NAGRI",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-2L7-C867",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6823,
+          "lng": 77.312,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "YAMUNA VIHAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-2L7-C867",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6823,
+          "lng": 77.312,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110032",
+    "digipin": "39J-2L5-44TL",
+    "centroid": {
+      "lat": 28.6678,
+      "lng": 77.302,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Shahdara",
+      "Seelampur",
+      "Welcome Colony",
+      "Shastri Park"
+    ],
+    "post_offices": [
+      {
+        "name": "SHAHDARA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-2L5-44TL",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6678,
+          "lng": 77.302,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "SEELAMPUR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-2L5-44TL",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6678,
+          "lng": 77.302,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110033",
+    "digipin": "39J-J6T-C694",
+    "centroid": {
+      "lat": 28.699,
+      "lng": 77.136,
+      "source": "approximate_centroid"
+    },
+    "district": "North West Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Rohini Sector 1",
+      "Rohini Sector 2",
+      "Rohini Sector 3",
+      "Rohini Sector 4",
+      "Rohini Sector 5"
+    ],
+    "post_offices": [
+      {
+        "name": "ROHINI",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-J6T-C694",
+        "address": null,
+        "coordinates": {
+          "lat": 28.699,
+          "lng": 77.136,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "ROHINI SECTOR 3",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-J6T-C694",
+        "address": null,
+        "coordinates": {
+          "lat": 28.699,
+          "lng": 77.136,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110034",
+    "digipin": "39J-J6K-5JF7",
+    "centroid": {
+      "lat": 28.704,
+      "lng": 77.11,
+      "source": "approximate_centroid"
+    },
+    "district": "North West Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Rohini Sector 6",
+      "Rohini Sector 7",
+      "Rohini Sector 8",
+      "Rohini Sector 9",
+      "Rohini Sector 10"
+    ],
+    "post_offices": [
+      {
+        "name": "ROHINI SECTOR 7",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-J6K-5JF7",
+        "address": null,
+        "coordinates": {
+          "lat": 28.704,
+          "lng": 77.11,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110035",
+    "digipin": "39J-3KF-ML43",
+    "centroid": {
+      "lat": 28.718,
+      "lng": 77.143,
+      "source": "approximate_centroid"
+    },
+    "district": "North West Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Pitampura",
+      "Shalimar Bagh",
+      "Netaji Subhash Place",
+      "Kohat Enclave"
+    ],
+    "post_offices": [
+      {
+        "name": "PITAMPURA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-3KF-ML43",
+        "address": null,
+        "coordinates": {
+          "lat": 28.718,
+          "lng": 77.143,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "SHALIMAR BAGH",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-3KF-ML43",
+        "address": null,
+        "coordinates": {
+          "lat": 28.718,
+          "lng": 77.143,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110036",
+    "digipin": "39J-3JT-F47M",
+    "centroid": {
+      "lat": 28.734,
+      "lng": 77.168,
+      "source": "approximate_centroid"
+    },
+    "district": "North Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Alipur",
+      "Narela",
+      "Bakhtawarpur",
+      "Holambi Kalan"
+    ],
+    "post_offices": [
+      {
+        "name": "ALIPUR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-3JT-F47M",
+        "address": null,
+        "coordinates": {
+          "lat": 28.734,
+          "lng": 77.168,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "NARELA",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-3JT-F47M",
+        "address": null,
+        "coordinates": {
+          "lat": 28.734,
+          "lng": 77.168,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110037",
+    "digipin": "39J-L98-TTKP",
+    "centroid": {
+      "lat": 28.507,
+      "lng": 77.105,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Najafgarh",
+      "Dhansa",
+      "Dichaon Kalan",
+      "Ujwa"
+    ],
+    "post_offices": [
+      {
+        "name": "NAJAFGARH",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-L98-TTKP",
+        "address": null,
+        "coordinates": {
+          "lat": 28.507,
+          "lng": 77.105,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110038",
+    "digipin": "39J-K64-867P",
+    "centroid": {
+      "lat": 28.567,
+      "lng": 77.123,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Kapashera",
+      "Bijwasan",
+      "Chhawla",
+      "Pochanpur"
+    ],
+    "post_offices": [
+      {
+        "name": "KAPASHERA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-K64-867P",
+        "address": null,
+        "coordinates": {
+          "lat": 28.567,
+          "lng": 77.123,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "BIJWASAN",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-K64-867P",
+        "address": null,
+        "coordinates": {
+          "lat": 28.567,
+          "lng": 77.123,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110039",
+    "digipin": "39J-5CF-T79P",
+    "centroid": {
+      "lat": 28.649,
+      "lng": 77.325,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Patparganj",
+      "IP Extension",
+      "Kondli",
+      "Jhilmil"
+    ],
+    "post_offices": [
+      {
+        "name": "PATPARGANJ",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-5CF-T79P",
+        "address": null,
+        "coordinates": {
+          "lat": 28.649,
+          "lng": 77.325,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "IP EXTENSION",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-5CF-T79P",
+        "address": null,
+        "coordinates": {
+          "lat": 28.649,
+          "lng": 77.325,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110040",
+    "digipin": "39J-J52-K5KF",
+    "centroid": {
+      "lat": 28.712,
+      "lng": 77.089,
+      "source": "approximate_centroid"
+    },
+    "district": "North West Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Rohini Sector 11",
+      "Rohini Sector 12",
+      "Rohini Sector 13",
+      "Prashant Vihar"
+    ],
+    "post_offices": [
+      {
+        "name": "ROHINI SECTOR 11",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-J52-K5KF",
+        "address": null,
+        "coordinates": {
+          "lat": 28.712,
+          "lng": 77.089,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110041",
+    "digipin": "39J-J5F-6MTT",
+    "centroid": {
+      "lat": 28.72,
+      "lng": 77.078,
+      "source": "approximate_centroid"
+    },
+    "district": "North West Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Rohini Sector 14",
+      "Rohini Sector 15",
+      "Rohini Sector 16",
+      "Rohini Sector 17"
+    ],
+    "post_offices": [
+      {
+        "name": "ROHINI SECTOR 15",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-J5F-6MTT",
+        "address": null,
+        "coordinates": {
+          "lat": 28.72,
+          "lng": 77.078,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110042",
+    "digipin": "39J-332-T475",
+    "centroid": {
+      "lat": 28.745,
+      "lng": 77.201,
+      "source": "approximate_centroid"
+    },
+    "district": "North Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Bawana",
+      "Samaypur Badli",
+      "Badli",
+      "Swaroop Nagar"
+    ],
+    "post_offices": [
+      {
+        "name": "BAWANA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-332-T475",
+        "address": null,
+        "coordinates": {
+          "lat": 28.745,
+          "lng": 77.201,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "BADLI",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-332-T475",
+        "address": null,
+        "coordinates": {
+          "lat": 28.745,
+          "lng": 77.201,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110043",
+    "digipin": "39J-K2T-K942",
+    "centroid": {
+      "lat": 28.59,
+      "lng": 77.098,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Dwarka Sector 11",
+      "Dwarka Sector 12",
+      "Dwarka Sector 13",
+      "Dwarka Sector 14"
+    ],
+    "post_offices": [
+      {
+        "name": "DWARKA SECTOR 12",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-K2T-K942",
+        "address": null,
+        "coordinates": {
+          "lat": 28.59,
+          "lng": 77.098,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110044",
+    "digipin": "39J-PFF-85LM",
+    "centroid": {
+      "lat": 28.514,
+      "lng": 77.289,
+      "source": "approximate_centroid"
+    },
+    "district": "South East Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Badarpur",
+      "Sangam Vihar",
+      "Madangir",
+      "Deoli"
+    ],
+    "post_offices": [
+      {
+        "name": "BADARPUR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-PFF-85LM",
+        "address": null,
+        "coordinates": {
+          "lat": 28.514,
+          "lng": 77.289,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "SANGAM VIHAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-PFF-85LM",
+        "address": null,
+        "coordinates": {
+          "lat": 28.514,
+          "lng": 77.289,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110045",
+    "digipin": "39J-K22-L2JF",
+    "centroid": {
+      "lat": 28.605,
+      "lng": 77.089,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Dwarka Sector 18",
+      "Dwarka Sector 19",
+      "Dwarka Sector 20",
+      "Dwarka Sector 21",
+      "Dwarka Sector 22",
+      "Dwarka Sector 23"
+    ],
+    "post_offices": [
+      {
+        "name": "DWARKA SECTOR 18",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-K22-L2JF",
+        "address": null,
+        "coordinates": {
+          "lat": 28.605,
+          "lng": 77.089,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110046",
+    "digipin": "39J-4L3-P86T",
+    "centroid": {
+      "lat": 28.535,
+      "lng": 77.156,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Chhattarpur Enclave",
+      "Satbari",
+      "Asola",
+      "Maidangarhi"
+    ],
+    "post_offices": [
+      {
+        "name": "CHHATTARPUR ENCLAVE",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4L3-P86T",
+        "address": null,
+        "coordinates": {
+          "lat": 28.535,
+          "lng": 77.156,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110047",
+    "digipin": "39J-MC2-74TP",
+    "centroid": {
+      "lat": 28.503,
+      "lng": 77.201,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Sainik Farm",
+      "Fatehpur Beri",
+      "Jonapur",
+      "Dera Mandi"
+    ],
+    "post_offices": [
+      {
+        "name": "SAINIK FARM",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-MC2-74TP",
+        "address": null,
+        "coordinates": {
+          "lat": 28.503,
+          "lng": 77.201,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110048",
+    "digipin": "39J-5KM-2964",
+    "centroid": {
+      "lat": 28.557,
+      "lng": 77.296,
+      "source": "approximate_centroid"
+    },
+    "district": "South East Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Sarita Vihar",
+      "Jasola",
+      "Madanpur Khadar",
+      "Kalindi Kunj"
+    ],
+    "post_offices": [
+      {
+        "name": "SARITA VIHAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-5KM-2964",
+        "address": null,
+        "coordinates": {
+          "lat": 28.557,
+          "lng": 77.296,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "JASOLA",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-5KM-2964",
+        "address": null,
+        "coordinates": {
+          "lat": 28.557,
+          "lng": 77.296,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110049",
+    "digipin": "39J-4PT-CK62",
+    "centroid": {
+      "lat": 28.523,
+      "lng": 77.24,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Alaknanda",
+      "Kalkaji Extension",
+      "Govindpuri Extension",
+      "CR Park"
+    ],
+    "post_offices": [
+      {
+        "name": "ALAKNANDA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4PT-CK62",
+        "address": null,
+        "coordinates": {
+          "lat": 28.523,
+          "lng": 77.24,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "CR PARK",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4PT-CK62",
+        "address": null,
+        "coordinates": {
+          "lat": 28.523,
+          "lng": 77.24,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110051",
+    "digipin": "39J-5F3-TP36",
+    "centroid": {
+      "lat": 28.639,
+      "lng": 77.298,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Laxmi Nagar",
+      "Nirman Vihar",
+      "Preet Vihar",
+      "Mandawali"
+    ],
+    "post_offices": [
+      {
+        "name": "LAXMI NAGAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-5F3-TP36",
+        "address": null,
+        "coordinates": {
+          "lat": 28.639,
+          "lng": 77.298,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "PREET VIHAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-5F3-TP36",
+        "address": null,
+        "coordinates": {
+          "lat": 28.639,
+          "lng": 77.298,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110052",
+    "digipin": "39J-36P-JP45",
+    "centroid": {
+      "lat": 28.696,
+      "lng": 77.265,
+      "source": "approximate_centroid"
+    },
+    "district": "North East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Bhajanpura",
+      "Brahampuri",
+      "Mustafabad",
+      "Gokulpuri"
+    ],
+    "post_offices": [
+      {
+        "name": "BHAJANPURA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-36P-JP45",
+        "address": null,
+        "coordinates": {
+          "lat": 28.696,
+          "lng": 77.265,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110053",
+    "digipin": "39J-3TT-2PJ3",
+    "centroid": {
+      "lat": 28.661,
+      "lng": 77.278,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Gandhi Nagar",
+      "Krishna Nagar",
+      "Pandav Nagar",
+      "Geeta Colony"
+    ],
+    "post_offices": [
+      {
+        "name": "GANDHI NAGAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-3TT-2PJ3",
+        "address": null,
+        "coordinates": {
+          "lat": 28.661,
+          "lng": 77.278,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "KRISHNA NAGAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-3TT-2PJ3",
+        "address": null,
+        "coordinates": {
+          "lat": 28.661,
+          "lng": 77.278,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110054",
+    "digipin": "39J-3MT-8F36",
+    "centroid": {
+      "lat": 28.6648,
+      "lng": 77.209,
+      "source": "approximate_centroid"
+    },
+    "district": "North Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "Chandni Chowk",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Mall Road",
+      "Timarpur",
+      "Mukherji Nagar",
+      "Outram Lines"
+    ],
+    "post_offices": [
+      {
+        "name": "MALL ROAD",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-3MT-8F36",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6648,
+          "lng": 77.209,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "TIMARPUR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-3MT-8F36",
+        "address": null,
+        "coordinates": {
+          "lat": 28.6648,
+          "lng": 77.209,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110055",
+    "digipin": "39J-4C2-2K38",
+    "centroid": {
+      "lat": 28.644,
+      "lng": 77.198,
+      "source": "approximate_centroid"
+    },
+    "district": "Central Delhi",
+    "division": "New Delhi Central",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "New Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Patel Nagar West",
+      "Shadi Bazar",
+      "Qadam Sharif",
+      "Pratap Nagar"
+    ],
+    "post_offices": [
+      {
+        "name": "PRATAP NAGAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4C2-2K38",
+        "address": null,
+        "coordinates": {
+          "lat": 28.644,
+          "lng": 77.198,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110056",
+    "digipin": "39J-JP5-728K",
+    "centroid": {
+      "lat": 28.671,
+      "lng": 77.096,
+      "source": "approximate_centroid"
+    },
+    "district": "West Delhi",
+    "division": "Delhi West",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Mangolpuri",
+      "Sultanpuri",
+      "Mundka",
+      "Nangloi"
+    ],
+    "post_offices": [
+      {
+        "name": "MANGOLPURI",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-JP5-728K",
+        "address": null,
+        "coordinates": {
+          "lat": 28.671,
+          "lng": 77.096,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "SULTANPURI",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-JP5-728K",
+        "address": null,
+        "coordinates": {
+          "lat": 28.671,
+          "lng": 77.096,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "NANGLOI",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-JP5-728K",
+        "address": null,
+        "coordinates": {
+          "lat": 28.671,
+          "lng": 77.096,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110057",
+    "digipin": "39J-4JT-463K",
+    "centroid": {
+      "lat": 28.589,
+      "lng": 77.171,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "New Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Vasant Vihar",
+      "Vasant Enclave",
+      "Shanti Niketan",
+      "Moti Bagh"
+    ],
+    "post_offices": [
+      {
+        "name": "VASANT VIHAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4JT-463K",
+        "address": null,
+        "coordinates": {
+          "lat": 28.589,
+          "lng": 77.171,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "MOTI BAGH",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4JT-463K",
+        "address": null,
+        "coordinates": {
+          "lat": 28.589,
+          "lng": 77.171,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110058",
+    "digipin": "39J-K9K-JCMJ",
+    "centroid": {
+      "lat": 28.636,
+      "lng": 77.071,
+      "source": "approximate_centroid"
+    },
+    "district": "West Delhi",
+    "division": "Delhi West",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Vikaspuri",
+      "Hastsal",
+      "Mohan Garden",
+      "Uttam Nagar West"
+    ],
+    "post_offices": [
+      {
+        "name": "VIKASPURI",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-K9K-JCMJ",
+        "address": null,
+        "coordinates": {
+          "lat": 28.636,
+          "lng": 77.071,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110059",
+    "digipin": "39J-K39-KPCJ",
+    "centroid": {
+      "lat": 28.615,
+      "lng": 77.054,
+      "source": "approximate_centroid"
+    },
+    "district": "West Delhi",
+    "division": "Delhi West",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Dwarka Sector 15",
+      "Dwarka Sector 16",
+      "Dwarka Sector 17",
+      "Uttam Nagar East"
+    ],
+    "post_offices": [
+      {
+        "name": "UTTAM NAGAR EAST",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-K39-KPCJ",
+        "address": null,
+        "coordinates": {
+          "lat": 28.615,
+          "lng": 77.054,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110060",
+    "digipin": "39J-K67-5MCP",
+    "centroid": {
+      "lat": 28.571,
+      "lng": 77.137,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "Chandni Chowk",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Dabri",
+      "Bindapur",
+      "Vikas Nagar",
+      "Kakrola"
+    ],
+    "post_offices": [
+      {
+        "name": "DABRI",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-K67-5MCP",
+        "address": null,
+        "coordinates": {
+          "lat": 28.571,
+          "lng": 77.137,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110062",
+    "digipin": "39J-M82-3785",
+    "centroid": {
+      "lat": 28.504,
+      "lng": 77.268,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Tughlakabad Extension",
+      "Sangam Vihar",
+      "Tigri",
+      "Devli"
+    ],
+    "post_offices": [
+      {
+        "name": "TUGHLAKABAD EXTENSION",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-M82-3785",
+        "address": null,
+        "coordinates": {
+          "lat": 28.504,
+          "lng": 77.268,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110063",
+    "digipin": "39J-JM8-5T6K",
+    "centroid": {
+      "lat": 28.685,
+      "lng": 77.068,
+      "source": "approximate_centroid"
+    },
+    "district": "West Delhi",
+    "division": "Delhi West",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Nilothi",
+      "Nihal Vihar",
+      "Nangloi Extension",
+      "Khyala"
+    ],
+    "post_offices": [
+      {
+        "name": "NIHAL VIHAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-JM8-5T6K",
+        "address": null,
+        "coordinates": {
+          "lat": 28.685,
+          "lng": 77.068,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110064",
+    "digipin": "39J-JMP-FJM6",
+    "centroid": {
+      "lat": 28.664,
+      "lng": 77.053,
+      "source": "approximate_centroid"
+    },
+    "district": "West Delhi",
+    "division": "Delhi West",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Mundka",
+      "Bahadurgarh Road",
+      "Peeragarhi Extension"
+    ],
+    "post_offices": [
+      {
+        "name": "MUNDKA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-JMP-FJM6",
+        "address": null,
+        "coordinates": {
+          "lat": 28.664,
+          "lng": 77.053,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110065",
+    "digipin": "39J-5KF-9P48",
+    "centroid": {
+      "lat": 28.584,
+      "lng": 77.287,
+      "source": "approximate_centroid"
+    },
+    "district": "South East Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Lajpat Nagar IV",
+      "Andrews Ganj",
+      "Sriniwaspuri",
+      "East of Kailash"
+    ],
+    "post_offices": [
+      {
+        "name": "ANDREWSGANJ",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-5KF-9P48",
+        "address": null,
+        "coordinates": {
+          "lat": 28.584,
+          "lng": 77.287,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "EAST OF KAILASH",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-5KF-9P48",
+        "address": null,
+        "coordinates": {
+          "lat": 28.584,
+          "lng": 77.287,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110066",
+    "digipin": "39J-43M-76MC",
+    "centroid": {
+      "lat": 28.591,
+      "lng": 77.193,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "New Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Safdarjung Hospital",
+      "AIIMS",
+      "INA",
+      "South Avenue"
+    ],
+    "post_offices": [
+      {
+        "name": "SAFDARJUNG HOSPITAL",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-43M-76MC",
+        "address": null,
+        "coordinates": {
+          "lat": 28.591,
+          "lng": 77.193,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "INA",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-43M-76MC",
+        "address": null,
+        "coordinates": {
+          "lat": 28.591,
+          "lng": 77.193,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110067",
+    "digipin": "39J-4KM-5LMM",
+    "centroid": {
+      "lat": 28.553,
+      "lng": 77.154,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Ber Sarai",
+      "Qutab Institutional Area",
+      "JNU",
+      "Munirka Village"
+    ],
+    "post_offices": [
+      {
+        "name": "QUTAB INSTITUTIONAL AREA",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4KM-5LMM",
+        "address": null,
+        "coordinates": {
+          "lat": 28.553,
+          "lng": 77.154,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "JNU",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-4KM-5LMM",
+        "address": null,
+        "coordinates": {
+          "lat": 28.553,
+          "lng": 77.154,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110068",
+    "digipin": "39J-4PL-53L7",
+    "centroid": {
+      "lat": 28.519,
+      "lng": 77.216,
+      "source": "approximate_centroid"
+    },
+    "district": "South Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Neb Sarai",
+      "Ignou Road",
+      "Saidulajab",
+      "Gadaipur"
+    ],
+    "post_offices": [
+      {
+        "name": "NEB SARAI",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4PL-53L7",
+        "address": null,
+        "coordinates": {
+          "lat": 28.519,
+          "lng": 77.216,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110070",
+    "digipin": "39J-4LL-C667",
+    "centroid": {
+      "lat": 28.523,
+      "lng": 77.145,
+      "source": "approximate_centroid"
+    },
+    "district": "South West Delhi",
+    "division": "Delhi South",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "South Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Pushp Vihar",
+      "Saket District Centre",
+      "Malviya Nagar Extension"
+    ],
+    "post_offices": [
+      {
+        "name": "PUSHP VIHAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-4LL-C667",
+        "address": null,
+        "coordinates": {
+          "lat": 28.523,
+          "lng": 77.145,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110075",
+    "digipin": "39J-537-CFKF",
+    "centroid": {
+      "lat": 28.612,
+      "lng": 77.345,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Mayur Vihar Phase I",
+      "Mayur Vihar Phase II",
+      "Trilokpuri",
+      "Khichripur"
+    ],
+    "post_offices": [
+      {
+        "name": "MAYUR VIHAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-537-CFKF",
+        "address": null,
+        "coordinates": {
+          "lat": 28.612,
+          "lng": 77.345,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "TRILOKPURI",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-537-CFKF",
+        "address": null,
+        "coordinates": {
+          "lat": 28.612,
+          "lng": 77.345,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110076",
+    "digipin": "39J-53K-5FCM",
+    "centroid": {
+      "lat": 28.599,
+      "lng": 77.321,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Vasundhara Enclave",
+      "Kondli",
+      "Gazipur",
+      "Gharoli"
+    ],
+    "post_offices": [
+      {
+        "name": "VASUNDHARA ENCLAVE",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-53K-5FCM",
+        "address": null,
+        "coordinates": {
+          "lat": 28.599,
+          "lng": 77.321,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110085",
+    "digipin": "39J-3K3-5668",
+    "centroid": {
+      "lat": 28.712,
+      "lng": 77.156,
+      "source": "approximate_centroid"
+    },
+    "district": "North West Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Rohini Sector 24",
+      "Rohini Sector 25",
+      "Rohini Sector 26",
+      "Rohini Sector 27",
+      "Rohini Sector 28",
+      "Rohini Sector 29"
+    ],
+    "post_offices": [
+      {
+        "name": "ROHINI SECTOR 24",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-3K3-5668",
+        "address": null,
+        "coordinates": {
+          "lat": 28.712,
+          "lng": 77.156,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110086",
+    "digipin": "39J-J2T-5M52",
+    "centroid": {
+      "lat": 28.729,
+      "lng": 77.102,
+      "source": "approximate_centroid"
+    },
+    "district": "North West Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North West Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Rohini Sector 18",
+      "Rohini Sector 19",
+      "Rohini Sector 20",
+      "Rohini Sector 21",
+      "Rohini Sector 22",
+      "Rohini Sector 23"
+    ],
+    "post_offices": [
+      {
+        "name": "ROHINI SECTOR 18",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-J2T-5M52",
+        "address": null,
+        "coordinates": {
+          "lat": 28.729,
+          "lng": 77.102,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110088",
+    "digipin": "39J-34K-3LJF",
+    "centroid": {
+      "lat": 28.705,
+      "lng": 77.178,
+      "source": "approximate_centroid"
+    },
+    "district": "North West Delhi",
+    "division": "Delhi North",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "Chandni Chowk",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Shalimar Bagh Extension",
+      "Ashok Vihar",
+      "Lawrence Road",
+      "Tri Nagar"
+    ],
+    "post_offices": [
+      {
+        "name": "ASHOK VIHAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-34K-3LJF",
+        "address": null,
+        "coordinates": {
+          "lat": 28.705,
+          "lng": 77.178,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "TRI NAGAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-34K-3LJF",
+        "address": null,
+        "coordinates": {
+          "lat": 28.705,
+          "lng": 77.178,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110091",
+    "digipin": "39J-5FT-378T",
+    "centroid": {
+      "lat": 28.627,
+      "lng": 77.312,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Anand Vihar",
+      "Karkardooma",
+      "Vivek Vihar",
+      "Dilshad Garden"
+    ],
+    "post_offices": [
+      {
+        "name": "ANAND VIHAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-5FT-378T",
+        "address": null,
+        "coordinates": {
+          "lat": 28.627,
+          "lng": 77.312,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "DILSHAD GARDEN",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-5FT-378T",
+        "address": null,
+        "coordinates": {
+          "lat": 28.627,
+          "lng": 77.312,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110092",
+    "digipin": "39J-5F7-9654",
+    "centroid": {
+      "lat": 28.646,
+      "lng": 77.314,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Shakarpur",
+      "Laxmi Nagar Extension",
+      "Vishwas Nagar",
+      "Madhu Vihar"
+    ],
+    "post_offices": [
+      {
+        "name": "SHAKARPUR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-5F7-9654",
+        "address": null,
+        "coordinates": {
+          "lat": 28.646,
+          "lng": 77.314,
+          "source": "pincode_centroid"
+        }
+      },
+      {
+        "name": "VISHWAS NAGAR",
+        "type": "SUB OFFICE",
+        "delivery": true,
+        "digipin": "39J-5F7-9654",
+        "address": null,
+        "coordinates": {
+          "lat": 28.646,
+          "lng": 77.314,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110093",
+    "digipin": "39J-2MK-35PL",
+    "centroid": {
+      "lat": 28.67,
+      "lng": 77.32,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Seemapuri",
+      "New Seemapuri",
+      "Harsh Vihar",
+      "Karawal Nagar"
+    ],
+    "post_offices": [
+      {
+        "name": "SEEMAPURI",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-2MK-35PL",
+        "address": null,
+        "coordinates": {
+          "lat": 28.67,
+          "lng": 77.32,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110094",
+    "digipin": "39J-534-2F57",
+    "centroid": {
+      "lat": 28.601,
+      "lng": 77.33,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Mayur Vihar Phase III",
+      "Kondli Extension",
+      "Gharoli Extension"
+    ],
+    "post_offices": [
+      {
+        "name": "MAYUR VIHAR PHASE III",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-534-2F57",
+        "address": null,
+        "coordinates": {
+          "lat": 28.601,
+          "lng": 77.33,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110095",
+    "digipin": "39J-5C9-2987",
+    "centroid": {
+      "lat": 28.654,
+      "lng": 77.34,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "North East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Nand Nagri Extension",
+      "Karawal Nagar",
+      "Mustafabad Extension"
+    ],
+    "post_offices": [
+      {
+        "name": "NAND NAGRI EXTENSION",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-5C9-2987",
+        "address": null,
+        "coordinates": {
+          "lat": 28.654,
+          "lng": 77.34,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  },
+  {
+    "pincode": "110096",
+    "digipin": "39J-5J3-C8K8",
+    "centroid": {
+      "lat": 28.612,
+      "lng": 77.294,
+      "source": "approximate_centroid"
+    },
+    "district": "East Delhi",
+    "division": "Delhi East",
+    "region": "Delhi",
+    "circle": "Delhi",
+    "state": "Delhi",
+    "state_code": "07",
+    "country": "India",
+    "country_code": "IN",
+    "lok_sabha_constituency": "East Delhi",
+    "vidhan_sabha_constituency": null,
+    "municipal_corporation": "Municipal Corporation of Delhi (MCD)",
+    "municipal_zone": null,
+    "std_code": "011",
+    "gst_state_code": "07",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "localities": [
+      "Pandav Nagar",
+      "Geeta Colony Extension",
+      "Gandhi Nagar Extension"
+    ],
+    "post_offices": [
+      {
+        "name": "PANDAV NAGAR",
+        "type": "HEAD OFFICE",
+        "delivery": true,
+        "digipin": "39J-5J3-C8K8",
+        "address": null,
+        "coordinates": {
+          "lat": 28.612,
+          "lng": 77.294,
+          "source": "pincode_centroid"
+        }
+      }
+    ],
+    "data_confidence": {
+      "pincode": "authoritative",
+      "digipin": "computed",
+      "centroid": "approximate",
+      "district": "authoritative",
+      "division": "authoritative",
+      "lok_sabha_constituency": "verified",
+      "vidhan_sabha_constituency": "unverified",
+      "municipal_zone": "unverified",
+      "post_office_addresses": "unverified",
+      "post_office_digipins": "approximate"
+    }
+  }
+]
